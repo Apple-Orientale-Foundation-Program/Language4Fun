@@ -11,6 +11,8 @@
 		69FEBFDC25403C8F007824A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FEBFDB25403C8F007824A6 /* ContentView.swift */; };
 		69FEBFDE25403C92007824A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFDD25403C92007824A6 /* Assets.xcassets */; };
 		69FEBFE125403C92007824A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFE025403C92007824A6 /* Preview Assets.xcassets */; };
+		BF4CD1B625419BA4003ADE03 /* OpenDyslexic3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4CD1B425419BA4003ADE03 /* OpenDyslexic3-Regular.ttf */; };
+		BF4CD1BD25419F01003ADE03 /* OpenDyslexic3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */; };
 		BFBD23212540627C00BD8965 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD23202540627C00BD8965 /* SwiftUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +23,8 @@
 		69FEBFDD25403C92007824A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FEBFE025403C92007824A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FEBFE225403C92007824A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF4CD1B425419BA4003ADE03 /* OpenDyslexic3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Regular.ttf"; sourceTree = "<group>"; };
+		BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Bold.ttf"; sourceTree = "<group>"; };
 		BFBD23202540627C00BD8965 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -38,6 +42,7 @@
 		69FEBFCD25403C8F007824A6 = {
 			isa = PBXGroup;
 			children = (
+				BF4CD1BA25419D99003ADE03 /* fonts */,
 				69FEBFD825403C8F007824A6 /* Language4Fun */,
 				69FEBFD725403C8F007824A6 /* Products */,
 			);
@@ -70,6 +75,15 @@
 				69FEBFE025403C92007824A6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BF4CD1BA25419D99003ADE03 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BF4CD1B425419BA4003ADE03 /* OpenDyslexic3-Regular.ttf */,
+				BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,7 +143,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4CD1B625419BA4003ADE03 /* OpenDyslexic3-Regular.ttf in Resources */,
 				69FEBFE125403C92007824A6 /* Preview Assets.xcassets in Resources */,
+				BF4CD1BD25419F01003ADE03 /* OpenDyslexic3-Bold.ttf in Resources */,
 				69FEBFDE25403C92007824A6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

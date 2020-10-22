@@ -9,11 +9,12 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Ciao a tutti da Fabio!")
+        Text("Simple Swift Guide")
+            .font(Font.custom("OpenDyslexic3", size: 33))
+            .fontWeight(.bold)
             .padding()
     }
 }
-
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
