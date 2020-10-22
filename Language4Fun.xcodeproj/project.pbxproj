@@ -11,6 +11,7 @@
 		69FEBFDC25403C8F007824A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FEBFDB25403C8F007824A6 /* ContentView.swift */; };
 		69FEBFDE25403C92007824A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFDD25403C92007824A6 /* Assets.xcassets */; };
 		69FEBFE125403C92007824A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFE025403C92007824A6 /* Preview Assets.xcassets */; };
+		B6A5D4E52541BA2D00F7F15B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5D4E42541BA2D00F7F15B /* HomeView.swift */; };
 		BF4CD1B625419BA4003ADE03 /* OpenDyslexic3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4CD1B425419BA4003ADE03 /* OpenDyslexic3-Regular.ttf */; };
 		BF4CD1BD25419F01003ADE03 /* OpenDyslexic3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */; };
 		BFBD23212540627C00BD8965 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD23202540627C00BD8965 /* SwiftUIView.swift */; };
@@ -23,6 +24,7 @@
 		69FEBFDD25403C92007824A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FEBFE025403C92007824A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FEBFE225403C92007824A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6A5D4E42541BA2D00F7F15B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BF4CD1B425419BA4003ADE03 /* OpenDyslexic3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Regular.ttf"; sourceTree = "<group>"; };
 		BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Bold.ttf"; sourceTree = "<group>"; };
 		BFBD23202540627C00BD8965 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				69FEBFD925403C8F007824A6 /* Language4FunApp.swift */,
 				69FEBFDB25403C8F007824A6 /* ContentView.swift */,
 				BFBD23202540627C00BD8965 /* SwiftUIView.swift */,
+				B6A5D4E42541BA2D00F7F15B /* HomeView.swift */,
 				69FEBFDD25403C92007824A6 /* Assets.xcassets */,
 				69FEBFE225403C92007824A6 /* Info.plist */,
 				69FEBFDF25403C92007824A6 /* Preview Content */,
@@ -158,6 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				69FEBFDC25403C8F007824A6 /* ContentView.swift in Sources */,
+				B6A5D4E52541BA2D00F7F15B /* HomeView.swift in Sources */,
 				69FEBFDA25403C8F007824A6 /* Language4FunApp.swift in Sources */,
 				BFBD23212540627C00BD8965 /* SwiftUIView.swift in Sources */,
 			);
