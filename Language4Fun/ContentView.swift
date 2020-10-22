@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Simple Swift Guide")
+        Text("Ciao da Bea")
             .font(Font.custom("OpenDyslexic3", size: 33))
             .fontWeight(.bold)
             .padding()
