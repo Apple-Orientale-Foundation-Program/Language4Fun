@@ -12,24 +12,28 @@ struct HomeView: View {
     var body: some View {
         NavigationView{
             ZStack{
-                Image(systemName: "play.fill").resizable()
-                    .foregroundColor(.red)
+                Image("Home")
+                    .resizable()
+                    .edgesIgnoringSafeArea(.all)
                 NavigationLink(
-                    destination: Destination(),
+                    destination: WorldView(),
                     label: {
                         Image(systemName: "play.circle").resizable()
-                            .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height, alignment: .center)
-                        
-                    })
+                            .foregroundColor(.orange)
+                            .frame(width: 100, height: 100, alignment: .center)
+                            .position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/1.3)
+                    }
+                )
             }
         }
-
-            
-     
+        .navigationViewStyle(StackNavigationViewStyle())
+    }
+}
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
         HomeView()
+            .previewDevice("iPad Pro (12.9-inch) (4th generation)")
     }
 }
     
