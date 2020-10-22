@@ -21,7 +21,17 @@ struct HomeView: View {
                         Image(systemName: "play.circle").resizable()
                             .foregroundColor(.orange)
                             .frame(width: 100, height: 100, alignment: .center)
-                            .position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/1.3)
+                            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                            .overlay(Circle()
+                                .stroke(lineWidth: 1)
+                                        .foregroundColor(.black))
+                            .padding(.top,855)
+                            
+                                 
+                            
+//                            .position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/1.3)
+                            
+                        
                     }
                 )
             }
@@ -36,4 +46,4 @@ struct HomeView_Previews: PreviewProvider {
             .previewDevice("iPad Pro (12.9-inch) (4th generation)")
     }
 }
-    
+
