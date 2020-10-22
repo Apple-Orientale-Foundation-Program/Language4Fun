@@ -9,16 +9,17 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        ZStack {
+        ZStack{
         Image("Home")
             .resizable()
             .scaledToFill()
-            
-            Image(systemName: "play.circle")
+        Image(systemName: "play.circle")
                 .resizable()
                 .frame(width: 55.0, height: 55.0)
-                .foregroundColor(.orange)
-                .padding(.bottom)
+            .foregroundColor(.orange)
+            .padding(/*@START_MENU_TOKEN@*/.top, 999.0/*@END_MENU_TOKEN@*/)
+                
+             
         }
     }
 }
