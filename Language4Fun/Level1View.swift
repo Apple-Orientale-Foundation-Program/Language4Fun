@@ -13,7 +13,7 @@ struct Level1View: View {
             NavigationLink(
                 destination: Level1ScreenLetterView(),
                 label: {
-                    Image("Level 01 - Start")
+                    Image("iPad Pro 12.9_ - 3")
                         .resizable()
                         .ignoresSafeArea(.all)
                 })
