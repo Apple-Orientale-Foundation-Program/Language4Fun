@@ -72,6 +72,12 @@ struct WorldView: View {
                     .frame(width: 106, height: 84, alignment: .bottomLeading)
                     .position(x: 80, y: -45)
                 
+                Image("Jace")
+//                    .resizable()
+//                    .frame(width: 106, height: 84, alignment: .bottomLeading)
+                    .position(x: 110, y: 1020)
+                    
+                
             
             }
             }
