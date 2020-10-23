@@ -11,13 +11,19 @@ struct WorldView: View {
     var body: some View {
         NavigationView{
             ZStack{
-            Image("background")
+            
+                Image("background")
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
+                
+                NavigationLink(
+                    destination: Level1View(),
+                    label: {
                 Image("Plutone")
                     .resizable()
                     .frame(width: 114, height: 132, alignment: .bottomLeading)
                     .position(x: 100, y: 1150)
+                    })
                 
                 Image("Nettuno")
                     .resizable()
@@ -82,11 +88,6 @@ struct WorldView: View {
             }
             }
         }
-        
-        
-        
-        
-        
         
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
