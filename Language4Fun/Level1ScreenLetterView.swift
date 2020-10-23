@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Level1ScreenLetterView: View {
     var body: some View {
-        Image("bluebackground")
+        Image("i")
             .resizable()
             .ignoresSafeArea(.all)
     }
