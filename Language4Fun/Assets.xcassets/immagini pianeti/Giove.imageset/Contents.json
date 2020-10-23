@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Giove.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Giove@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Giove@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

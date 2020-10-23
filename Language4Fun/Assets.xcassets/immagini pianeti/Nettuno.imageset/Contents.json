@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Nettuno.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Nettuno@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Nettuno@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

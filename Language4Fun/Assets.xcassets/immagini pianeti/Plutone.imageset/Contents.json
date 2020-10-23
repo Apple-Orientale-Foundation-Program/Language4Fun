@@ -1,14 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "Plutone.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
+      "filename" : "Plutone@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "Plutone@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
