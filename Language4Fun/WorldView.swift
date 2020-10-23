@@ -37,31 +37,44 @@ struct WorldView: View {
                 Image("Giove")
 //                    .resizable()
 //                    .frame(width: 100, height: 100, alignment: .bottomLeading)
-                    .position(x: 850, y: 750)
+                    .position(x: 690, y: 720)
                 
                 Image("Marte")
 //                    .resizable()
 //                    .frame(width: 100, height: 100, alignment: .bottomLeading)
-                    .position(x: 650, y: 630)
+                    .position(x: 500, y: 600)
                 
                 Image("Terra")
 //                    .resizable()
 //                    .frame(width: 100, height: 100, alignment: .bottomLeading)
-                    .position(x: 450, y: 500)
+                    .position(x: 350, y: 450)
                 
+            
+            ZStack{
                 Image("Venere")
 //                    .resizable()
 //                    .frame(width: 100, height: 100, alignment: .bottomLeading)
-                    .position(x: 610, y: 370)
+                    .position(x: 550, y: 320)
                 
                 Image("Mercurio")
 //                    .resizable()
 //                    .frame(width: 100, height: 100, alignment: .bottomLeading)
-                    .position(x: 750, y: 270)
+                    .position(x: 700, y: 220)
                 
+                Image("Sun")
+//                    .resizable()
+//                    .frame(width: 100, height: 100, alignment: .bottomLeading)
+                    .position(x: 850, y: 50)
+                    .shadow(radius: 8 )
                 
-            }
+                Image("Alien")
+//                    .resizable()
+//                    .frame(width: 100, height: 100, alignment: .bottomLeading)
+                    .position(x: 70, y: -50)
+                
             
+            }
+            }
         }
         
         
