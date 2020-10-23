@@ -10,7 +10,14 @@ import SwiftUI
 struct Level1View: View {
     var body: some View {
         NavigationView{
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            NavigationLink(
+                destination: Level1ScreenLetterView(),
+                label: {
+                    Image("Level 01 - Start")
+                        .resizable()
+                        .ignoresSafeArea(.all)
+                })
+        
     }
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
