@@ -8,17 +8,14 @@
 import SwiftUI
 
 struct Level1ScreenLetterView: View {
-    let customfont = Font.custom("OpenDyslexic3Regular.ttf", size: 255)
     var body: some View {
         ZStack {
-        Image("sfondo blu")
-            .resizable()
-            .ignoresSafeArea(.all)
+            Image("sfondo blu")
+                .resizable()
+                .ignoresSafeArea(.all)
+            Text("Ciao a tutti e fanculo").font(Font.custom("OpenDyslexic3", size: 175))
+            .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
             
-            Text("A")
-                .font(customfont)
-                .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
-                
             
         }
     }
@@ -26,8 +23,8 @@ struct Level1ScreenLetterView: View {
 
 struct Level1ScreenLetterView_Previews: PreviewProvider {
     static var previews: some View {
-            Level1ScreenLetterView()
-            
+        Level1ScreenLetterView()
+        
         
     }
 }
