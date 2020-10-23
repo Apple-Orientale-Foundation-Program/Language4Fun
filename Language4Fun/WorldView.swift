@@ -89,6 +89,7 @@ struct WorldView: View {
         
         
         .edgesIgnoringSafeArea(.top)
+        .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)
         .navigationViewStyle(StackNavigationViewStyle())
         
@@ -98,5 +99,6 @@ struct WorldView: View {
 struct WorldView_Previews: PreviewProvider {
     static var previews: some View {
         WorldView()
+            .previewDevice("iPad Pro (12.9-inch) (4th generation)")
     }
 }
