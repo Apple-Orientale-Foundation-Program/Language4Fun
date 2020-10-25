@@ -16,6 +16,7 @@ struct WorldView: View {
                 .resizable()
                 .edgesIgnoringSafeArea(.all)
                 
+                
                 NavigationLink(
                     destination: Level1View(),
                     label: {
@@ -23,6 +24,8 @@ struct WorldView: View {
                     .resizable()
                     .frame(width: 114, height: 132, alignment: .bottomLeading)
                     .position(x: 100, y: 1150)
+                    .opacity(1)
+                    
                     })
                 
                 Image("Nettuno")

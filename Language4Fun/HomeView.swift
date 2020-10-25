@@ -26,7 +26,8 @@ struct HomeView: View {
                                 .stroke(lineWidth: 1)
                                         .foregroundColor(.black))
                             .padding(.top,800)
-                            
+                        
+                    
                             
                             
 //                            .position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/1.3)

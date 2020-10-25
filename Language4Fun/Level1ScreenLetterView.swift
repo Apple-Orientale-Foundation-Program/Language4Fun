@@ -18,7 +18,7 @@ struct Level1ScreenLetterView: View {
                 .resizable()
                 .ignoresSafeArea(.all)
                 
-            Text("A").font(Font.custom("OpenDyslexic3", size: 355))
+                Text(letter).font(Font.custom("OpenDyslexic3", size: 355))
             .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
                 .position(x: 530, y: 350)
             
@@ -28,11 +28,11 @@ struct Level1ScreenLetterView: View {
                 .position(x: 530, y: 950)
                 
             HStack {
-            Text("Apple").font(Font.custom("OpenDyslexic3", size: 130))
+            Text(word).font(Font.custom("OpenDyslexic3", size: 130))
                 .position(x: 430, y: 700)
             .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
                 
-                Image("A")
+                Image(image)
                     .position(x: 250, y: 700)
             }
             

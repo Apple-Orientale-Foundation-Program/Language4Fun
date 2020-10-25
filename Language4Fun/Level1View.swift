@@ -10,21 +10,26 @@ import SwiftUI
 struct Level1View: View {
     var body: some View {
         NavigationView{
+            
             NavigationLink(
                 destination: Level1ScreenLetterView(),
                 label: {
-                    Image("iPad Pro 12.9_ - 3")
+                    Image(imagetostartlevel)
                         .resizable()
                         .ignoresSafeArea(.all)
+                
                 })
+            
         
     }
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)
         .navigationViewStyle(StackNavigationViewStyle())
+        
 }
 }
+
 struct Level1View_Previews: PreviewProvider {
     static var previews: some View {
         Level1View()
