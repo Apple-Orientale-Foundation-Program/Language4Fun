@@ -21,37 +21,36 @@ struct EsercizioStart: View {
                         .font(Font.custom("OpenDyslexic3", size: 355))
                         .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
                         .padding(.top, -200.0)
-                        
-               Spacer ()
+                    
+                    Spacer ()
                     
                     HStack(alignment: .center) {
                         Text(esercizio.completeWord)
                             .font(Font.custom("OpenDyslexic3", size: 130))
                             .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
                         Image(esercizio.excerciseLetter)
-                 
-                    }
-                    .padding(.top, -350.0)
-                    
-            
-                  
-                    Spacer ()
-                    Text("tap to start")
-                        .font(Font.custom("OpenDyslexic3", size: 55))
-                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
-                        .padding(.top, -200.0)
                         
+                    }
+                    .padding(.top, -200.0)
+                    
+                    Image(systemName: "speaker.wave.2.circle")
+                        .resizable()
+                        .padding(.top, 20.0)
+                        .frame(width: 150.0, height: 150.0)
+                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                    
+       Spacer ()
+                    NavigationLink( destination: EsercizioCompleto (esercizio:esercizio),
+                                    label:{Text("Tap to start")
+                                        .font(Font.custom("OpenDyslexic3", size: 55))
+                                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                                        .padding(.top, -20.0)})
+                    Spacer()
                     
                     
-                    //                    Image(esercizio.excerciseLetter).resizable()
-                    //                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    
                 }
-                //                NavigationLink(
-                //                    destination: EsercizioCompleto(esercizio: esercizio),
-                //                    label: {
-                //                        Text("Start")
-                //                            .font(.largeTitle)
-                //                    })
+                
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())
