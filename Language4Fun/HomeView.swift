@@ -15,21 +15,32 @@ struct HomeView: View {
                 Image("Home")
                     .resizable()
                     .edgesIgnoringSafeArea(.all)
-                
-               
-                
+                VStack{
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
+                    Spacer()
                 NavigationLink(
                     destination: WorldView(),
                     label: {
-                        Image(systemName: "play.circle")
-                            .resizable()
+                        Image(systemName: "play.circle").resizable()
                             .foregroundColor(.orange)
-                            frame(width: 100, height: 100, alignment: .center)
-                                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                            .frame(width: 100, height: 100, alignment: .center)
+                            .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
                             .overlay(Circle()
                                 .stroke(lineWidth: 1)
                                         .foregroundColor(.black))
-                                .padding(.top, -800)})
+                        }
+                )
+                    Spacer()
+        }
+                    
+                            
+                            
+//                            .position(x: UIScreen.main.bounds.width/2, y: UIScreen.main.bounds.height/1.3)
+
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())
