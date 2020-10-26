@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct EsercizioCompleto: View {
+    @State var indice: Int
     var esercizio : Esercizio
+    @State private var parolaCompleta = ""
     var body: some View {
         NavigationView{
             ZStack{
@@ -22,9 +24,8 @@ struct EsercizioCompleto: View {
                         .frame(width: 261.0, height: 268.0)
                         .padding(150.0)
                     
-                    var parolaCompleta = esercizio.wordWithoutCapital
-                    Spacer()
-                    Text(parolaCompleta)
+                  Spacer()
+                  Text(parolaCompleta)
                         .font(Font.custom("OpenDyslexic3", size: 90))
                         .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
                         .padding(-120)
@@ -32,12 +33,16 @@ struct EsercizioCompleto: View {
                     Spacer()
                     
                     HStack{
-                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
+                        Button(action: {
+                                parolaCompleta = esercizio.completeWord
+                        }, label: {
                         Image(esercizio.letter1).resizable()
                             .frame(width: 100, height: 147, alignment: .center)
                         } )
                         
-                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
+                        Button(action: {
+                                parolaCompleta = esercizio.completeWord
+                        }, label: {
                         Image(esercizio.letter2)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
@@ -65,13 +70,16 @@ struct EsercizioCompleto: View {
                 }
             }
         }
+        .onAppear(){
+          parolaCompleta = esercizio.wordWithoutCapital
+        }
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
 struct EsercizioCompleto_Previews: PreviewProvider {
     static var previews: some View {
-        EsercizioCompleto(esercizio: listOfExcercises.excerciseList[0])
+      EsercizioCompleto(indice: 0, esercizio: listOfExcercises.excerciseList[0])
             .previewDevice("iPad Air (4th generation)")
     }
 }

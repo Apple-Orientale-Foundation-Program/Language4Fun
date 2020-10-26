@@ -12,7 +12,8 @@ struct Level1View: View {
         NavigationView{
             
             NavigationLink(
-                destination: Level1ScreenLetterView(),
+                destination:
+                  EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[0]),
                 label: {
                     Image(imagetostartlevel)
                         .resizable()
