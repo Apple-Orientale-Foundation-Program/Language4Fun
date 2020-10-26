@@ -8,8 +8,11 @@
 import SwiftUI
 
 struct EsercizioCompleto: View {
+ @State var verify : Bool = false
     @State var indice: Int
     var esercizio : Esercizio
+    
+   
     @State private var parolaCompleta = ""
     var body: some View {
         NavigationView{
@@ -32,9 +35,13 @@ struct EsercizioCompleto: View {
                     
                     Spacer()
                     
+                    
+
                     HStack{
                         Button(action: {
-                                parolaCompleta = esercizio.completeWord
+                            if esercizio.letter1 == esercizio.excerciseLetter + "L" {
+                           print("ohh")
+                            }
                         }, label: {
                         Image(esercizio.letter1).resizable()
                             .frame(width: 100, height: 147, alignment: .center)
@@ -60,13 +67,6 @@ struct EsercizioCompleto: View {
                         })
                     }
                     Spacer()
-                    //                    Button(action: {
-                    //                        parolaCompleta = esercizio.completeWord
-                    //                    }, label: {
-                    //                        Image(esercizio.letter3)
-                    //                            .resizable()
-                    //                            .frame(width: 100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center)
-                    //                    })
                 }
             }
         }
@@ -79,7 +79,7 @@ struct EsercizioCompleto: View {
 
 struct EsercizioCompleto_Previews: PreviewProvider {
     static var previews: some View {
-      EsercizioCompleto(indice: 0, esercizio: listOfExcercises.excerciseList[0])
+      EsercizioCompleto(indice: 0, esercizio: listOfExcercises.excerciseList[1])
             .previewDevice("iPad Air (4th generation)")
     }
 }
