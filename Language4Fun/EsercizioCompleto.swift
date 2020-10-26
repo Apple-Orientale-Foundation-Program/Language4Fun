@@ -11,15 +11,19 @@ struct EsercizioCompleto: View {
     var esercizio : Esercizio
     var body: some View {
         NavigationView{
-         
+            ZStack{
             Image("BackgroundExone")
                 .resizable()
                 .ignoresSafeArea(.all)
+            
             VStack{
                 Image(esercizio.excerciseLetter)
+                    .padding(.bottom, 100.0)
                 var parolaCompleta = esercizio.wordWithoutCapital
+                Spacer()
                 Text(parolaCompleta)
                     .font(.largeTitle)
+                Spacer()
                 
                 HStack{
                     Image(esercizio.letter1).resizable()
@@ -33,14 +37,15 @@ struct EsercizioCompleto: View {
                     Image(esercizio.letter4)
                         .resizable()
                         .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    
-                    Button(action: {
-                        parolaCompleta = esercizio.completeWord
-                    }, label: {
-                        Image(esercizio.letter4)
-                            .resizable()
-                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    })
+                }
+                Spacer()
+//                    Button(action: {
+//                        parolaCompleta = esercizio.completeWord
+//                    }, label: {
+//                        Image(esercizio.letter3)
+//                            .resizable()
+//                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+//                    })
                 }
             }
         }

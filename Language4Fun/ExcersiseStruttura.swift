@@ -16,7 +16,7 @@ class ExcerciseStruttura: ObservableObject{
 }
 
 let listOfExcercises = ExcerciseStruttura(excerciseList: [
-    Esercizio(id: 1, excerciseLetter: "A", completeWord: "Apple", wordWithoutCapital: "pple", letter1: "Slippery When Wet", letter2: "Strange Days", letter3: "The Sacrament of Sin", letter4: "The Sin and the Sentence"),
+    Esercizio(id: 1, excerciseLetter: "A", completeWord: "Apple", wordWithoutCapital: "_pple", letter1: "SL", letter2: "FL", letter3: "AL", letter4: "TL"),
     
     Esercizio(id: 2, excerciseLetter: "The Sacrament of Sin", completeWord: "The Sacrament of Sin",wordWithoutCapital: "he Sacrament of Sin", letter1: "Shogun", letter2: "Strange Days", letter3: "The Sin and the Sentence", letter4: "Slippery When Wet"),
     
