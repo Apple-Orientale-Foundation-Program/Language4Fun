@@ -11,6 +11,10 @@ struct EsercizioCompleto: View {
     var esercizio : Esercizio
     var body: some View {
         NavigationView{
+         
+            Image("BackgroundExone")
+                .resizable()
+                .ignoresSafeArea(.all)
             VStack{
                 Image(esercizio.excerciseLetter)
                 var parolaCompleta = esercizio.wordWithoutCapital
@@ -50,3 +54,4 @@ struct EsercizioCompleto_Previews: PreviewProvider {
             .previewDevice("iPad Air (4th generation)")
     }
 }
+
