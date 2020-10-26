@@ -54,6 +54,9 @@ struct EsercizioStart: View {
                 
             }
         }
+        .edgesIgnoringSafeArea(.top)
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }

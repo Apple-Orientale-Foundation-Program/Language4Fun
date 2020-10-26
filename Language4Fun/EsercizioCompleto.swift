@@ -40,7 +40,10 @@ struct EsercizioCompleto: View {
                     HStack{
                         Button(action: {
                             if esercizio.letter1 == esercizio.excerciseLetter + "L" {
-                           print("ohh")
+                                parolaCompleta = esercizio.completeWord
+                            }
+                            else {
+                                parolaCompleta = esercizio.wordWithoutCapital
                             }
                         }, label: {
                         Image(esercizio.letter1).resizable()
@@ -48,19 +51,38 @@ struct EsercizioCompleto: View {
                         } )
                         
                         Button(action: {
+                            if esercizio.letter2 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
+                            }
+                            else {
+                                parolaCompleta = esercizio.wordWithoutCapital
+                            }
                         }, label: {
                         Image(esercizio.letter2)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
                         })
                         
-                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
+                        Button(action: {
+                            if esercizio.letter3 == esercizio.excerciseLetter + "L" {
+                                parolaCompleta = esercizio.completeWord
+                            }
+                            else {
+                                parolaCompleta = esercizio.wordWithoutCapital
+                            }
+                        }, label: {
                         Image(esercizio.letter3)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
                         })
-                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
+                        Button(action: {
+                            if esercizio.letter4 == esercizio.excerciseLetter + "L" {
+                                parolaCompleta = esercizio.completeWord
+                            }
+                            else {
+                                parolaCompleta = esercizio.wordWithoutCapital
+                            }
+                        }, label: {
                         Image(esercizio.letter4)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
@@ -73,6 +95,9 @@ struct EsercizioCompleto: View {
         .onAppear(){
           parolaCompleta = esercizio.wordWithoutCapital
         }
+        .edgesIgnoringSafeArea(.top)
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
