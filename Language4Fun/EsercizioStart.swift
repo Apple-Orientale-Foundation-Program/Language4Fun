@@ -16,22 +16,42 @@ struct EsercizioStart: View {
                     .resizable()
                     .ignoresSafeArea(.all)
                 
-                VStack{
-                    Image(esercizio.excerciseLetter)
-                    Spacer()
+                VStack(alignment: .center){
+                    Text(esercizio.excerciseLetter)
+                        .font(Font.custom("OpenDyslexic3", size: 355))
+                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                        .padding(.top, -200.0)
+                        
+               Spacer ()
                     
-                    Text(esercizio.completeWord)
-                        .font(.largeTitle)
+                    HStack(alignment: .center) {
+                        Text(esercizio.completeWord)
+                            .font(Font.custom("OpenDyslexic3", size: 130))
+                            .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                        Image(esercizio.excerciseLetter)
+                 
+                    }
+                    .padding(.top, -350.0)
                     
-//                    Image(esercizio.excerciseLetter).resizable()
-//                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+            
+                  
+                    Spacer ()
+                    Text("tap to start")
+                        .font(Font.custom("OpenDyslexic3", size: 55))
+                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                        .padding(.top, -200.0)
+                        
+                    
+                    
+                    //                    Image(esercizio.excerciseLetter).resizable()
+                    //                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
                 }
-                NavigationLink(
-                    destination: EsercizioCompleto(esercizio: esercizio),
-                    label: {
-                        Text("Start")
-                            .font(.largeTitle)
-                    })
+                //                NavigationLink(
+                //                    destination: EsercizioCompleto(esercizio: esercizio),
+                //                    label: {
+                //                        Text("Start")
+                //                            .font(.largeTitle)
+                //                    })
             }
         }
         .navigationViewStyle(StackNavigationViewStyle())
@@ -44,11 +64,11 @@ struct EsercizioStart_Previews: PreviewProvider {
             EsercizioStart(esercizio: listOfExcercises.excerciseList[0])
                 .previewDevice("iPad Air (4th generation)")
             
-//            EsercizioStart(esercizio: listOfExcercises.excerciseList[1])
-//                .previewDevice("iPad Air (4th generation)")
-//            
-//            EsercizioStart(esercizio: listOfExcercises.excerciseList[2])
-//                .previewDevice("iPad Air (4th generation)")
+            //            EsercizioStart(esercizio: listOfExcercises.excerciseList[1])
+            //                .previewDevice("iPad Air (4th generation)")
+            //            
+            //            EsercizioStart(esercizio: listOfExcercises.excerciseList[2])
+            //                .previewDevice("iPad Air (4th generation)")
         }
     }
 }
