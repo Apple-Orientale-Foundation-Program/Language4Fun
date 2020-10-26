@@ -32,17 +32,27 @@ struct EsercizioCompleto: View {
                     Spacer()
                     
                     HStack{
+                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
                         Image(esercizio.letter1).resizable()
                             .frame(width: 100, height: 147, alignment: .center)
+                        } )
+                        
+                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
                         Image(esercizio.letter2)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
+                        })
+                        
+                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
                         Image(esercizio.letter3)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
+                        })
+                        Button(action: {parolaCompleta = esercizio.completeWord}, label: {
                         Image(esercizio.letter4)
                             .resizable()
                             .frame(width: 100, height: 147, alignment: .center)
+                        })
                     }
                     Spacer()
                     //                    Button(action: {
