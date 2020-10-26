@@ -39,9 +39,9 @@ struct EsercizioCompleto: View {
 
                     HStack{
                         Button(action: {
-                            if esercizio.letter1 == esercizio.excerciseLetter + "L" {
+                           if esercizio.letter1 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
-                            }
+                               }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
                             }

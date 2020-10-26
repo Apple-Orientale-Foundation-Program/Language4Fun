@@ -34,11 +34,17 @@ struct EsercizioStart: View {
                     }
                     .padding(.top, -200.0)
                     
-                    Image(systemName: "speaker.wave.2.circle")
-                        .resizable()
-                        .padding(.top, 20.0)
-                        .frame(width: 150.0, height: 150.0)
-                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                    Button(action: {
+                        playsound(sound: "Dyspacetheme", type: "m4a")
+                        }
+                    , label: {
+                        Image(systemName: "speaker.wave.2.circle")
+                            .resizable()
+                            .padding(.top, 20.0)
+                            .frame(width: 150.0, height: 150.0)
+                            .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                    } )
+                    
                     
        Spacer ()
                   NavigationLink( destination: EsercizioCompleto (indice: 0, esercizio:esercizio),

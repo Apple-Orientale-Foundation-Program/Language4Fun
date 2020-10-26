@@ -11,6 +11,7 @@ struct HomeView: View {
     
     var body: some View {
         NavigationView{
+            
             ZStack{
                 Image("Home")
                     .resizable()
@@ -32,6 +33,7 @@ struct HomeView: View {
                             .overlay(Circle()
                                 .stroke(lineWidth: 1)
                                         .foregroundColor(.black))
+                        
                         }
                 )
                     Spacer()
@@ -43,6 +45,11 @@ struct HomeView: View {
 
             }
         }
+        
+        .onAppear(){
+          playsound(sound: "Dyspacetheme", type: "m4a")
+        }
+        
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
