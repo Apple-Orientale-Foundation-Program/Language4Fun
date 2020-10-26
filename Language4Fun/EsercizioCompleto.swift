@@ -16,36 +16,42 @@ struct EsercizioCompleto: View {
                 .resizable()
                 .ignoresSafeArea(.all)
             
-            VStack{
-                Image(esercizio.excerciseLetter)
-                    .padding(.bottom, 100.0)
-                var parolaCompleta = esercizio.wordWithoutCapital
-                Spacer()
-                Text(parolaCompleta)
-                    .font(.largeTitle)
-                Spacer()
-                
-                HStack{
-                    Image(esercizio.letter1).resizable()
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    Image(esercizio.letter2)
+                VStack{
+                    Image(esercizio.excerciseLetter)
                         .resizable()
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    Image(esercizio.letter3)
-                        .resizable()
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                    Image(esercizio.letter4)
-                        .resizable()
-                        .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                }
-                Spacer()
-//                    Button(action: {
-//                        parolaCompleta = esercizio.completeWord
-//                    }, label: {
-//                        Image(esercizio.letter3)
-//                            .resizable()
-//                            .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-//                    })
+                        .frame(width: 261.0, height: 268.0)
+                        .padding(150.0)
+                    
+                    var parolaCompleta = esercizio.wordWithoutCapital
+                    Spacer()
+                    Text(parolaCompleta)
+                        .font(Font.custom("OpenDyslexic3", size: 90))
+                        .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                        .padding(-120)
+                    
+                    Spacer()
+                    
+                    HStack{
+                        Image(esercizio.letter1).resizable()
+                            .frame(width: 100, height: 147, alignment: .center)
+                        Image(esercizio.letter2)
+                            .resizable()
+                            .frame(width: 100, height: 147, alignment: .center)
+                        Image(esercizio.letter3)
+                            .resizable()
+                            .frame(width: 100, height: 147, alignment: .center)
+                        Image(esercizio.letter4)
+                            .resizable()
+                            .frame(width: 100, height: 147, alignment: .center)
+                    }
+                    Spacer()
+                    //                    Button(action: {
+                    //                        parolaCompleta = esercizio.completeWord
+                    //                    }, label: {
+                    //                        Image(esercizio.letter3)
+                    //                            .resizable()
+                    //                            .frame(width: 100/*@END_MENU_TOKEN@*/, height: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, alignment: /*@START_MENU_TOKEN@*/.center)
+                    //                    })
                 }
             }
         }
