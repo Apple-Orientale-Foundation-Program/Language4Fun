@@ -15,7 +15,7 @@ struct Level1View: View {
                 destination:
                   EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[0]),
                 label: {
-                    Image(imagetostartlevel)
+                    Image("Plutolevel")
                         .resizable()
                         .ignoresSafeArea(.all)
                 
