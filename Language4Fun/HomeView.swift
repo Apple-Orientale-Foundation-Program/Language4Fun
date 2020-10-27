@@ -47,7 +47,7 @@ struct HomeView: View {
         }
         
         .onAppear(){
-          playsound(sound: "Dyspacetheme", type: "m4a")
+          playsound(sound: "Dyspace theme", type: "mp3")
         }
         
         .navigationViewStyle(StackNavigationViewStyle())

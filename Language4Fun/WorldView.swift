@@ -84,6 +84,7 @@ struct WorldView: View {
                     .shadow(radius: 8 )
                     .opacity(0.6)
                 
+                
                 Image("Alien")
                     .resizable()
                     .frame(width: 106, height: 84, alignment: .bottomLeading)
