@@ -11,6 +11,7 @@
 		69FEBFDC25403C8F007824A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FEBFDB25403C8F007824A6 /* ContentView.swift */; };
 		69FEBFDE25403C92007824A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFDD25403C92007824A6 /* Assets.xcassets */; };
 		69FEBFE125403C92007824A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFE025403C92007824A6 /* Preview Assets.xcassets */; };
+		72543DFD25485A2F0051F7B7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72543DFC25485A2F0051F7B7 /* Card.swift */; };
 		B66EF7E22546BD1100666467 /* Esercizio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EF7E12546BD1100666467 /* Esercizio.swift */; };
 		B66EF7E52546BD1C00666467 /* EsercizioCompleto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */; };
 		B66EF7E82546BD2300666467 /* ExcersiseStruttura.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EF7E72546BD2300666467 /* ExcersiseStruttura.swift */; };
@@ -112,6 +113,7 @@
 		69FEBFDD25403C92007824A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FEBFE025403C92007824A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FEBFE225403C92007824A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72543DFC25485A2F0051F7B7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		B66EF7E12546BD1100666467 /* Esercizio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Esercizio.swift; sourceTree = "<group>"; };
 		B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsercizioCompleto.swift; sourceTree = "<group>"; };
 		B66EF7E72546BD2300666467 /* ExcersiseStruttura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcersiseStruttura.swift; sourceTree = "<group>"; };
@@ -250,6 +252,7 @@
 				B6A5D4EB2542FFE100F7F15B /* Level1View.swift */,
 				B66EF7EA2546BD2A00666467 /* EsercizioStart.swift */,
 				B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */,
+				72543DFC25485A2F0051F7B7 /* Card.swift */,
 				69FEBFDD25403C92007824A6 /* Assets.xcassets */,
 				69FEBFE225403C92007824A6 /* Info.plist */,
 				69FEBFDF25403C92007824A6 /* Preview Content */,
@@ -528,6 +531,7 @@
 				B6F3747B2547592100A7A9F1 /* PlaySound.swift in Sources */,
 				B6A5D4E92541C12200F7F15B /* WorldView.swift in Sources */,
 				B66EF7E52546BD1C00666467 /* EsercizioCompleto.swift in Sources */,
+				72543DFD25485A2F0051F7B7 /* Card.swift in Sources */,
 				B66EF7E82546BD2300666467 /* ExcersiseStruttura.swift in Sources */,
 				B6A5D4EC2542FFE100F7F15B /* Level1View.swift in Sources */,
 				69FEBFDA25403C8F007824A6 /* Language4FunApp.swift in Sources */,
