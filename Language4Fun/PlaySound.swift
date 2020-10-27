@@ -29,9 +29,18 @@ func playsound1(sound: String, type: String) {
             audioPlayer1 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
             audioPlayer1?.play()
             audioPlayer1?.numberOfLoops = 0
+            
         } catch {
         print("Could not find the file")
         }
     }
-}
+    if audioPlayer?.isPlaying == true {
+        
+            audioPlayer?.setVolume(0.1, fadeDuration: 0.9)
+       
+        } else {
+            audioPlayer?.setVolume(1.0, fadeDuration: 0.5)
+            }
+    }
+
 
