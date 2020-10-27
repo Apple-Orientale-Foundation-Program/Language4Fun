@@ -75,7 +75,7 @@ struct EsercizioStart: View {
 struct EsercizioStart_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-          EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[0])
+          EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[3])
                 .previewDevice("iPad Air (4th generation)")
             
             //            EsercizioStart(esercizio: listOfExcercises.excerciseList[1])

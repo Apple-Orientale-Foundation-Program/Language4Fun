@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct WorldView: View {
+   @State var reward  = 0
+    
     var body: some View {
+    
+        let rewardstr = String(reward)
+        
         NavigationView{
             ZStack{
             
@@ -90,6 +95,13 @@ struct WorldView: View {
                     .frame(width: 106, height: 84, alignment: .bottomLeading)
                     .position(x: 80, y: -45)
                 
+                Text(rewardstr)
+                    .font(Font.custom("OpenDyslexic3", size: 55))
+                    .foregroundColor(.orange)
+                    .position(x: 170, y: -55)
+                    .shadow(radius: 8)
+                   
+                
                 Image("Jace")
 //                    .resizable()
 //                    .frame(width: 106, height: 84, alignment: .bottomLeading)
@@ -103,7 +115,7 @@ struct WorldView: View {
         
         .onAppear(){
           playsound1(sound: "Story", type: "m4a")
-        
+
         }
         
         .edgesIgnoringSafeArea(.top)

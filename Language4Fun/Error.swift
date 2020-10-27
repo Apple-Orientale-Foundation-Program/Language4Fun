@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct Error: View {
+ 
     var body: some View {
         
         ZStack{

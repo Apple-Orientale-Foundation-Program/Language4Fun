@@ -13,11 +13,10 @@ struct EsercizioCompleto: View {
     @State var indice: Int
     var esercizio : Esercizio
     @State var backg : String = "BackgroundExone"
-    
-    
-   
     @State private var parolaCompleta = ""
+    @State var nextb : String = ""
     var body: some View {
+        
         NavigationView{
             ZStack{
             Image(backg)
@@ -25,10 +24,20 @@ struct EsercizioCompleto: View {
                 .ignoresSafeArea(.all)
             
                 VStack{
+                    
+                  
+                      
+                    
                     Image(esercizio.excerciseLetter)
                         .resizable()
                         .frame(width: 261.0, height: 268.0)
-                        .padding(150.0)
+                        .padding(200.0)
+                    
+                    NavigationLink( destination: EsercizioStart(indice: 1, esercizio: listOfExcercises.excerciseList[1]),
+                                      label:{Text(nextb)
+                                          .font(Font.custom("OpenDyslexic3", size: 55))
+                                          .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
+                                          .padding(.top, -1.0)})
                     
                   Spacer()
                   Text(parolaCompleta)
@@ -48,6 +57,7 @@ struct EsercizioCompleto: View {
                             playsound1(sound: "correct3", type: "m4a")
                             backg = "BackgroundEx2"
                             indice = indice + 1
+                            nextb = "Next Letter"
                                }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -66,6 +76,7 @@ struct EsercizioCompleto: View {
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
                                 indice = indice + 1
+                                nextb = "Next Letter"
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -84,6 +95,7 @@ struct EsercizioCompleto: View {
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
                                 indice = indice + 1
+                                nextb = "Next Letter"
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -101,6 +113,7 @@ struct EsercizioCompleto: View {
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
                                 indice = indice + 1
+                                nextb = "Next Letter"
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -124,9 +137,11 @@ struct EsercizioCompleto: View {
         .onAppear(){
           playsound1(sound: esercizio.pickletter, type: "m4a")
         }
+
+        
         .edgesIgnoringSafeArea(.top)
-        .navigationBarHidden(false)
-        .navigationBarBackButtonHidden(false)
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
