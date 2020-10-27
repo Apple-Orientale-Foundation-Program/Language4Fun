@@ -20,6 +20,86 @@
 		B6A5D4EC2542FFE100F7F15B /* Level1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5D4EB2542FFE100F7F15B /* Level1View.swift */; };
 		B6F3747B2547592100A7A9F1 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F3747A2547592100A7A9F1 /* PlaySound.swift */; };
 		B6F37486254821AB00A7A9F1 /* Dyspace theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6F37485254821AB00A7A9F1 /* Dyspace theme.mp3 */; };
+		B6F374DD25482AFD00A7A9F1 /* ghost.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3748D25482AF000A7A9F1 /* ghost.m4a */; };
+		B6F374DE25482AFD00A7A9F1 /* C.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3748E25482AF000A7A9F1 /* C.m4a */; };
+		B6F374DF25482AFD00A7A9F1 /* tap note.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3748F25482AF100A7A9F1 /* tap note.m4a */; };
+		B6F374E025482AFD00A7A9F1 /* EL m.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749025482AF100A7A9F1 /* EL m.m4a */; };
+		B6F374E125482AFD00A7A9F1 /* elephant.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749125482AF100A7A9F1 /* elephant.m4a */; };
+		B6F374E225482AFD00A7A9F1 /* EL C.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749225482AF100A7A9F1 /* EL C.m4a */; };
+		B6F374E325482AFD00A7A9F1 /* L.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749325482AF100A7A9F1 /* L.m4a */; };
+		B6F374E425482AFD00A7A9F1 /* jellyfish.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749425482AF100A7A9F1 /* jellyfish.m4a */; };
+		B6F374E525482AFD00A7A9F1 /* lion.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749525482AF100A7A9F1 /* lion.m4a */; };
+		B6F374E625482AFD00A7A9F1 /* EL D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749625482AF200A7A9F1 /* EL D.m4a */; };
+		B6F374E725482AFD00A7A9F1 /* D.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749725482AF200A7A9F1 /* D.m4a */; };
+		B6F374E825482AFD00A7A9F1 /* seagull.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749825482AF200A7A9F1 /* seagull.m4a */; };
+		B6F374E925482AFD00A7A9F1 /* violin.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749925482AF200A7A9F1 /* violin.m4a */; };
+		B6F374EA25482AFD00A7A9F1 /* Helicopter .m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749A25482AF200A7A9F1 /* Helicopter .m4a */; };
+		B6F374EB25482AFD00A7A9F1 /* tree.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749B25482AF200A7A9F1 /* tree.m4a */; };
+		B6F374EC25482AFD00A7A9F1 /* EL P.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749C25482AF300A7A9F1 /* EL P.m4a */; };
+		B6F374ED25482AFD00A7A9F1 /* kite2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749D25482AF300A7A9F1 /* kite2.m4a */; };
+		B6F374EE25482AFD00A7A9F1 /* EL G.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749E25482AF300A7A9F1 /* EL G.m4a */; };
+		B6F374EF25482AFD00A7A9F1 /* G.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F3749F25482AF300A7A9F1 /* G.m4a */; };
+		B6F374F025482AFD00A7A9F1 /* queen.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A025482AF300A7A9F1 /* queen.m4a */; };
+		B6F374F125482AFD00A7A9F1 /* Z.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A125482AF300A7A9F1 /* Z.m4a */; };
+		B6F374F225482AFD00A7A9F1 /* EL N.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A225482AF300A7A9F1 /* EL N.m4a */; };
+		B6F374F325482AFD00A7A9F1 /* EL I.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A325482AF400A7A9F1 /* EL I.m4a */; };
+		B6F374F425482AFD00A7A9F1 /* orange.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A425482AF400A7A9F1 /* orange.m4a */; };
+		B6F374F525482AFD00A7A9F1 /* V.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A525482AF400A7A9F1 /* V.m4a */; };
+		B6F374F625482AFD00A7A9F1 /* correct3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A625482AF400A7A9F1 /* correct3.m4a */; };
+		B6F374F725482AFD00A7A9F1 /* J.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A725482AF400A7A9F1 /* J.m4a */; };
+		B6F374F825482AFD00A7A9F1 /* EL O.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A825482AF400A7A9F1 /* EL O.m4a */; };
+		B6F374F925482AFD00A7A9F1 /* N.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374A925482AF400A7A9F1 /* N.m4a */; };
+		B6F374FA25482AFD00A7A9F1 /* Neptune.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374AA25482AF500A7A9F1 /* Neptune.m4a */; };
+		B6F374FB25482AFD00A7A9F1 /* Story.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374AB25482AF500A7A9F1 /* Story.m4a */; };
+		B6F374FC25482AFD00A7A9F1 /* EL K2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374AC25482AF500A7A9F1 /* EL K2.m4a */; };
+		B6F374FD25482AFD00A7A9F1 /* k.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374AD25482AF500A7A9F1 /* k.m4a */; };
+		B6F374FE25482AFD00A7A9F1 /* T.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374AE25482AF500A7A9F1 /* T.m4a */; };
+		B6F374FF25482AFD00A7A9F1 /* uranus.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374AF25482AF500A7A9F1 /* uranus.m4a */; };
+		B6F3750025482AFD00A7A9F1 /* panda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B025482AF600A7A9F1 /* panda.m4a */; };
+		B6F3750125482AFD00A7A9F1 /* EL H.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B125482AF600A7A9F1 /* EL H.m4a */; };
+		B6F3750225482AFD00A7A9F1 /* apple.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B225482AF600A7A9F1 /* apple.m4a */; };
+		B6F3750325482AFD00A7A9F1 /* radio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B325482AF600A7A9F1 /* radio.m4a */; };
+		B6F3750425482AFD00A7A9F1 /* Q.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B425482AF600A7A9F1 /* Q.m4a */; };
+		B6F3750525482AFD00A7A9F1 /* Pluto.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B525482AF600A7A9F1 /* Pluto.m4a */; };
+		B6F3750625482AFD00A7A9F1 /* EL L.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B625482AF600A7A9F1 /* EL L.m4a */; };
+		B6F3750725482AFD00A7A9F1 /* flower.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B725482AF700A7A9F1 /* flower.m4a */; };
+		B6F3750825482AFD00A7A9F1 /* B.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B825482AF700A7A9F1 /* B.m4a */; };
+		B6F3750925482AFD00A7A9F1 /* EL J.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374B925482AF700A7A9F1 /* EL J.m4a */; };
+		B6F3750A25482AFD00A7A9F1 /* cat.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374BA25482AF700A7A9F1 /* cat.m4a */; };
+		B6F3750B25482AFD00A7A9F1 /* EL S.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374BB25482AF700A7A9F1 /* EL S.m4a */; };
+		B6F3750C25482AFD00A7A9F1 /* H.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374BC25482AF700A7A9F1 /* H.m4a */; };
+		B6F3750D25482AFD00A7A9F1 /* EL Z.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374BD25482AF800A7A9F1 /* EL Z.m4a */; };
+		B6F3750E25482AFD00A7A9F1 /* E.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374BE25482AF800A7A9F1 /* E.m4a */; };
+		B6F3750F25482AFD00A7A9F1 /* P.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374BF25482AF800A7A9F1 /* P.m4a */; };
+		B6F3751025482AFD00A7A9F1 /* Ice-cream.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C025482AF800A7A9F1 /* Ice-cream.m4a */; };
+		B6F3751125482AFD00A7A9F1 /* R.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C125482AF800A7A9F1 /* R.m4a */; };
+		B6F3751225482AFD00A7A9F1 /* X.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C225482AF800A7A9F1 /* X.m4a */; };
+		B6F3751325482AFD00A7A9F1 /* F.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C325482AF900A7A9F1 /* F.m4a */; };
+		B6F3751425482AFD00A7A9F1 /* EL K.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C425482AF900A7A9F1 /* EL K.m4a */; };
+		B6F3751525482AFD00A7A9F1 /* EL Y.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C525482AF900A7A9F1 /* EL Y.m4a */; };
+		B6F3751625482AFD00A7A9F1 /* EL V.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C625482AF900A7A9F1 /* EL V.m4a */; };
+		B6F3751725482AFD00A7A9F1 /* S.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C725482AF900A7A9F1 /* S.m4a */; };
+		B6F3751825482AFD00A7A9F1 /* Umbrella .m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C825482AFA00A7A9F1 /* Umbrella .m4a */; };
+		B6F3751925482AFD00A7A9F1 /* EL R.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C925482AFA00A7A9F1 /* EL R.m4a */; };
+		B6F3751A25482AFD00A7A9F1 /* EL E.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CA25482AFA00A7A9F1 /* EL E.m4a */; };
+		B6F3751B25482AFD00A7A9F1 /* I.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CB25482AFA00A7A9F1 /* I.m4a */; };
+		B6F3751C25482AFD00A7A9F1 /* apple1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CC25482AFA00A7A9F1 /* apple1.m4a */; };
+		B6F3751D25482AFD00A7A9F1 /* EL T.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CD25482AFA00A7A9F1 /* EL T.m4a */; };
+		B6F3751E25482AFD00A7A9F1 /* EL W.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CE25482AFB00A7A9F1 /* EL W.m4a */; };
+		B6F3751F25482AFD00A7A9F1 /* Each letter A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CF25482AFB00A7A9F1 /* Each letter A.m4a */; };
+		B6F3752025482AFD00A7A9F1 /* EL F.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D025482AFB00A7A9F1 /* EL F.m4a */; };
+		B6F3752125482AFD00A7A9F1 /* bee.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D125482AFB00A7A9F1 /* bee.m4a */; };
+		B6F3752225482AFD00A7A9F1 /* watch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D225482AFB00A7A9F1 /* watch.m4a */; };
+		B6F3752325482AFD00A7A9F1 /* moon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D325482AFC00A7A9F1 /* moon.m4a */; };
+		B6F3752425482AFD00A7A9F1 /* EL X.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D425482AFC00A7A9F1 /* EL X.m4a */; };
+		B6F3752525482AFD00A7A9F1 /* correct1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D525482AFC00A7A9F1 /* correct1.m4a */; };
+		B6F3752625482AFD00A7A9F1 /* EL Q.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D625482AFC00A7A9F1 /* EL Q.m4a */; };
+		B6F3752725482AFD00A7A9F1 /* U.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D725482AFC00A7A9F1 /* U.m4a */; };
+		B6F3752825482AFD00A7A9F1 /* EL B.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D825482AFC00A7A9F1 /* EL B.m4a */; };
+		B6F3752925482AFD00A7A9F1 /* dog.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D925482AFD00A7A9F1 /* dog.m4a */; };
+		B6F3752A25482AFD00A7A9F1 /* Yo-yo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374DA25482AFD00A7A9F1 /* Yo-yo.m4a */; };
+		B6F3752B25482AFD00A7A9F1 /* nurse.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374DB25482AFD00A7A9F1 /* nurse.m4a */; };
+		B6F3752C25482AFD00A7A9F1 /* Y.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374DC25482AFD00A7A9F1 /* Y.m4a */; };
 		BF4CD1BD25419F01003ADE03 /* OpenDyslexic3-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */; };
 		BF5251B525434C7100B4300A /* OpenDyslexic3-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BF5251B425434C7100B4300A /* OpenDyslexic3-Regular.ttf */; };
 		BFBD23212540627C00BD8965 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFBD23202540627C00BD8965 /* SwiftUIView.swift */; };
@@ -41,6 +121,86 @@
 		B6A5D4EB2542FFE100F7F15B /* Level1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Level1View.swift; sourceTree = "<group>"; };
 		B6F3747A2547592100A7A9F1 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
 		B6F37485254821AB00A7A9F1 /* Dyspace theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dyspace theme.mp3"; sourceTree = "<group>"; };
+		B6F3748D25482AF000A7A9F1 /* ghost.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ghost.m4a; sourceTree = "<group>"; };
+		B6F3748E25482AF000A7A9F1 /* C.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = C.m4a; sourceTree = "<group>"; };
+		B6F3748F25482AF100A7A9F1 /* tap note.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "tap note.m4a"; sourceTree = "<group>"; };
+		B6F3749025482AF100A7A9F1 /* EL m.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL m.m4a"; sourceTree = "<group>"; };
+		B6F3749125482AF100A7A9F1 /* elephant.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.m4a; sourceTree = "<group>"; };
+		B6F3749225482AF100A7A9F1 /* EL C.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL C.m4a"; sourceTree = "<group>"; };
+		B6F3749325482AF100A7A9F1 /* L.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = L.m4a; sourceTree = "<group>"; };
+		B6F3749425482AF100A7A9F1 /* jellyfish.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = jellyfish.m4a; sourceTree = "<group>"; };
+		B6F3749525482AF100A7A9F1 /* lion.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.m4a; sourceTree = "<group>"; };
+		B6F3749625482AF200A7A9F1 /* EL D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL D.m4a"; sourceTree = "<group>"; };
+		B6F3749725482AF200A7A9F1 /* D.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = D.m4a; sourceTree = "<group>"; };
+		B6F3749825482AF200A7A9F1 /* seagull.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = seagull.m4a; sourceTree = "<group>"; };
+		B6F3749925482AF200A7A9F1 /* violin.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = violin.m4a; sourceTree = "<group>"; };
+		B6F3749A25482AF200A7A9F1 /* Helicopter .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Helicopter .m4a"; sourceTree = "<group>"; };
+		B6F3749B25482AF200A7A9F1 /* tree.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = tree.m4a; sourceTree = "<group>"; };
+		B6F3749C25482AF300A7A9F1 /* EL P.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL P.m4a"; sourceTree = "<group>"; };
+		B6F3749D25482AF300A7A9F1 /* kite2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = kite2.m4a; sourceTree = "<group>"; };
+		B6F3749E25482AF300A7A9F1 /* EL G.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL G.m4a"; sourceTree = "<group>"; };
+		B6F3749F25482AF300A7A9F1 /* G.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = G.m4a; sourceTree = "<group>"; };
+		B6F374A025482AF300A7A9F1 /* queen.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = queen.m4a; sourceTree = "<group>"; };
+		B6F374A125482AF300A7A9F1 /* Z.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Z.m4a; sourceTree = "<group>"; };
+		B6F374A225482AF300A7A9F1 /* EL N.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL N.m4a"; sourceTree = "<group>"; };
+		B6F374A325482AF400A7A9F1 /* EL I.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL I.m4a"; sourceTree = "<group>"; };
+		B6F374A425482AF400A7A9F1 /* orange.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = orange.m4a; sourceTree = "<group>"; };
+		B6F374A525482AF400A7A9F1 /* V.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = V.m4a; sourceTree = "<group>"; };
+		B6F374A625482AF400A7A9F1 /* correct3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = correct3.m4a; sourceTree = "<group>"; };
+		B6F374A725482AF400A7A9F1 /* J.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = J.m4a; sourceTree = "<group>"; };
+		B6F374A825482AF400A7A9F1 /* EL O.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL O.m4a"; sourceTree = "<group>"; };
+		B6F374A925482AF400A7A9F1 /* N.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = N.m4a; sourceTree = "<group>"; };
+		B6F374AA25482AF500A7A9F1 /* Neptune.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neptune.m4a; sourceTree = "<group>"; };
+		B6F374AB25482AF500A7A9F1 /* Story.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Story.m4a; sourceTree = "<group>"; };
+		B6F374AC25482AF500A7A9F1 /* EL K2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL K2.m4a"; sourceTree = "<group>"; };
+		B6F374AD25482AF500A7A9F1 /* k.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = k.m4a; sourceTree = "<group>"; };
+		B6F374AE25482AF500A7A9F1 /* T.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = T.m4a; sourceTree = "<group>"; };
+		B6F374AF25482AF500A7A9F1 /* uranus.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = uranus.m4a; sourceTree = "<group>"; };
+		B6F374B025482AF600A7A9F1 /* panda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = panda.m4a; sourceTree = "<group>"; };
+		B6F374B125482AF600A7A9F1 /* EL H.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL H.m4a"; sourceTree = "<group>"; };
+		B6F374B225482AF600A7A9F1 /* apple.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple.m4a; sourceTree = "<group>"; };
+		B6F374B325482AF600A7A9F1 /* radio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = radio.m4a; sourceTree = "<group>"; };
+		B6F374B425482AF600A7A9F1 /* Q.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Q.m4a; sourceTree = "<group>"; };
+		B6F374B525482AF600A7A9F1 /* Pluto.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pluto.m4a; sourceTree = "<group>"; };
+		B6F374B625482AF600A7A9F1 /* EL L.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL L.m4a"; sourceTree = "<group>"; };
+		B6F374B725482AF700A7A9F1 /* flower.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = flower.m4a; sourceTree = "<group>"; };
+		B6F374B825482AF700A7A9F1 /* B.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = B.m4a; sourceTree = "<group>"; };
+		B6F374B925482AF700A7A9F1 /* EL J.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL J.m4a"; sourceTree = "<group>"; };
+		B6F374BA25482AF700A7A9F1 /* cat.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = cat.m4a; sourceTree = "<group>"; };
+		B6F374BB25482AF700A7A9F1 /* EL S.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL S.m4a"; sourceTree = "<group>"; };
+		B6F374BC25482AF700A7A9F1 /* H.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = H.m4a; sourceTree = "<group>"; };
+		B6F374BD25482AF800A7A9F1 /* EL Z.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL Z.m4a"; sourceTree = "<group>"; };
+		B6F374BE25482AF800A7A9F1 /* E.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = E.m4a; sourceTree = "<group>"; };
+		B6F374BF25482AF800A7A9F1 /* P.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = P.m4a; sourceTree = "<group>"; };
+		B6F374C025482AF800A7A9F1 /* Ice-cream.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ice-cream.m4a"; sourceTree = "<group>"; };
+		B6F374C125482AF800A7A9F1 /* R.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = R.m4a; sourceTree = "<group>"; };
+		B6F374C225482AF800A7A9F1 /* X.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = X.m4a; sourceTree = "<group>"; };
+		B6F374C325482AF900A7A9F1 /* F.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = F.m4a; sourceTree = "<group>"; };
+		B6F374C425482AF900A7A9F1 /* EL K.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL K.m4a"; sourceTree = "<group>"; };
+		B6F374C525482AF900A7A9F1 /* EL Y.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL Y.m4a"; sourceTree = "<group>"; };
+		B6F374C625482AF900A7A9F1 /* EL V.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL V.m4a"; sourceTree = "<group>"; };
+		B6F374C725482AF900A7A9F1 /* S.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = S.m4a; sourceTree = "<group>"; };
+		B6F374C825482AFA00A7A9F1 /* Umbrella .m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Umbrella .m4a"; sourceTree = "<group>"; };
+		B6F374C925482AFA00A7A9F1 /* EL R.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL R.m4a"; sourceTree = "<group>"; };
+		B6F374CA25482AFA00A7A9F1 /* EL E.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL E.m4a"; sourceTree = "<group>"; };
+		B6F374CB25482AFA00A7A9F1 /* I.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = I.m4a; sourceTree = "<group>"; };
+		B6F374CC25482AFA00A7A9F1 /* apple1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple1.m4a; sourceTree = "<group>"; };
+		B6F374CD25482AFA00A7A9F1 /* EL T.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL T.m4a"; sourceTree = "<group>"; };
+		B6F374CE25482AFB00A7A9F1 /* EL W.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL W.m4a"; sourceTree = "<group>"; };
+		B6F374CF25482AFB00A7A9F1 /* Each letter A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Each letter A.m4a"; sourceTree = "<group>"; };
+		B6F374D025482AFB00A7A9F1 /* EL F.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL F.m4a"; sourceTree = "<group>"; };
+		B6F374D125482AFB00A7A9F1 /* bee.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bee.m4a; sourceTree = "<group>"; };
+		B6F374D225482AFB00A7A9F1 /* watch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = watch.m4a; sourceTree = "<group>"; };
+		B6F374D325482AFC00A7A9F1 /* moon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = moon.m4a; sourceTree = "<group>"; };
+		B6F374D425482AFC00A7A9F1 /* EL X.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL X.m4a"; sourceTree = "<group>"; };
+		B6F374D525482AFC00A7A9F1 /* correct1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = correct1.m4a; sourceTree = "<group>"; };
+		B6F374D625482AFC00A7A9F1 /* EL Q.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL Q.m4a"; sourceTree = "<group>"; };
+		B6F374D725482AFC00A7A9F1 /* U.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = U.m4a; sourceTree = "<group>"; };
+		B6F374D825482AFC00A7A9F1 /* EL B.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL B.m4a"; sourceTree = "<group>"; };
+		B6F374D925482AFD00A7A9F1 /* dog.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = dog.m4a; sourceTree = "<group>"; };
+		B6F374DA25482AFD00A7A9F1 /* Yo-yo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Yo-yo.m4a"; sourceTree = "<group>"; };
+		B6F374DB25482AFD00A7A9F1 /* nurse.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = nurse.m4a; sourceTree = "<group>"; };
+		B6F374DC25482AFD00A7A9F1 /* Y.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Y.m4a; sourceTree = "<group>"; };
 		BF4CD1BC25419F01003ADE03 /* OpenDyslexic3-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Bold.ttf"; sourceTree = "<group>"; };
 		BF5251B425434C7100B4300A /* OpenDyslexic3-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenDyslexic3-Regular.ttf"; sourceTree = "<group>"; };
 		BFBD23202540627C00BD8965 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
@@ -115,6 +275,86 @@
 		B6F374802548213600A7A9F1 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				B6F374B225482AF600A7A9F1 /* apple.m4a */,
+				B6F374CC25482AFA00A7A9F1 /* apple1.m4a */,
+				B6F374B825482AF700A7A9F1 /* B.m4a */,
+				B6F374D125482AFB00A7A9F1 /* bee.m4a */,
+				B6F3748E25482AF000A7A9F1 /* C.m4a */,
+				B6F374BA25482AF700A7A9F1 /* cat.m4a */,
+				B6F374D525482AFC00A7A9F1 /* correct1.m4a */,
+				B6F374A625482AF400A7A9F1 /* correct3.m4a */,
+				B6F3749725482AF200A7A9F1 /* D.m4a */,
+				B6F374D925482AFD00A7A9F1 /* dog.m4a */,
+				B6F374BE25482AF800A7A9F1 /* E.m4a */,
+				B6F374CF25482AFB00A7A9F1 /* Each letter A.m4a */,
+				B6F374D825482AFC00A7A9F1 /* EL B.m4a */,
+				B6F3749225482AF100A7A9F1 /* EL C.m4a */,
+				B6F3749625482AF200A7A9F1 /* EL D.m4a */,
+				B6F374CA25482AFA00A7A9F1 /* EL E.m4a */,
+				B6F374D025482AFB00A7A9F1 /* EL F.m4a */,
+				B6F3749E25482AF300A7A9F1 /* EL G.m4a */,
+				B6F374B125482AF600A7A9F1 /* EL H.m4a */,
+				B6F374A325482AF400A7A9F1 /* EL I.m4a */,
+				B6F374B925482AF700A7A9F1 /* EL J.m4a */,
+				B6F374C425482AF900A7A9F1 /* EL K.m4a */,
+				B6F374AC25482AF500A7A9F1 /* EL K2.m4a */,
+				B6F374B625482AF600A7A9F1 /* EL L.m4a */,
+				B6F3749025482AF100A7A9F1 /* EL m.m4a */,
+				B6F374A225482AF300A7A9F1 /* EL N.m4a */,
+				B6F374A825482AF400A7A9F1 /* EL O.m4a */,
+				B6F3749C25482AF300A7A9F1 /* EL P.m4a */,
+				B6F374D625482AFC00A7A9F1 /* EL Q.m4a */,
+				B6F374C925482AFA00A7A9F1 /* EL R.m4a */,
+				B6F374BB25482AF700A7A9F1 /* EL S.m4a */,
+				B6F374CD25482AFA00A7A9F1 /* EL T.m4a */,
+				B6F374C625482AF900A7A9F1 /* EL V.m4a */,
+				B6F374CE25482AFB00A7A9F1 /* EL W.m4a */,
+				B6F374D425482AFC00A7A9F1 /* EL X.m4a */,
+				B6F374C525482AF900A7A9F1 /* EL Y.m4a */,
+				B6F374BD25482AF800A7A9F1 /* EL Z.m4a */,
+				B6F3749125482AF100A7A9F1 /* elephant.m4a */,
+				B6F374C325482AF900A7A9F1 /* F.m4a */,
+				B6F374B725482AF700A7A9F1 /* flower.m4a */,
+				B6F3749F25482AF300A7A9F1 /* G.m4a */,
+				B6F3748D25482AF000A7A9F1 /* ghost.m4a */,
+				B6F374BC25482AF700A7A9F1 /* H.m4a */,
+				B6F3749A25482AF200A7A9F1 /* Helicopter .m4a */,
+				B6F374CB25482AFA00A7A9F1 /* I.m4a */,
+				B6F374C025482AF800A7A9F1 /* Ice-cream.m4a */,
+				B6F374A725482AF400A7A9F1 /* J.m4a */,
+				B6F3749425482AF100A7A9F1 /* jellyfish.m4a */,
+				B6F374AD25482AF500A7A9F1 /* k.m4a */,
+				B6F3749D25482AF300A7A9F1 /* kite2.m4a */,
+				B6F3749325482AF100A7A9F1 /* L.m4a */,
+				B6F3749525482AF100A7A9F1 /* lion.m4a */,
+				B6F374D325482AFC00A7A9F1 /* moon.m4a */,
+				B6F374A925482AF400A7A9F1 /* N.m4a */,
+				B6F374AA25482AF500A7A9F1 /* Neptune.m4a */,
+				B6F374DB25482AFD00A7A9F1 /* nurse.m4a */,
+				B6F374A425482AF400A7A9F1 /* orange.m4a */,
+				B6F374BF25482AF800A7A9F1 /* P.m4a */,
+				B6F374B025482AF600A7A9F1 /* panda.m4a */,
+				B6F374B525482AF600A7A9F1 /* Pluto.m4a */,
+				B6F374B425482AF600A7A9F1 /* Q.m4a */,
+				B6F374A025482AF300A7A9F1 /* queen.m4a */,
+				B6F374C125482AF800A7A9F1 /* R.m4a */,
+				B6F374B325482AF600A7A9F1 /* radio.m4a */,
+				B6F374C725482AF900A7A9F1 /* S.m4a */,
+				B6F3749825482AF200A7A9F1 /* seagull.m4a */,
+				B6F374AB25482AF500A7A9F1 /* Story.m4a */,
+				B6F374AE25482AF500A7A9F1 /* T.m4a */,
+				B6F3748F25482AF100A7A9F1 /* tap note.m4a */,
+				B6F3749B25482AF200A7A9F1 /* tree.m4a */,
+				B6F374D725482AFC00A7A9F1 /* U.m4a */,
+				B6F374C825482AFA00A7A9F1 /* Umbrella .m4a */,
+				B6F374AF25482AF500A7A9F1 /* uranus.m4a */,
+				B6F374A525482AF400A7A9F1 /* V.m4a */,
+				B6F3749925482AF200A7A9F1 /* violin.m4a */,
+				B6F374D225482AFB00A7A9F1 /* watch.m4a */,
+				B6F374C225482AF800A7A9F1 /* X.m4a */,
+				B6F374DC25482AFD00A7A9F1 /* Y.m4a */,
+				B6F374DA25482AFD00A7A9F1 /* Yo-yo.m4a */,
+				B6F374A125482AF300A7A9F1 /* Z.m4a */,
 				B6F37485254821AB00A7A9F1 /* Dyspace theme.mp3 */,
 			);
 			path = Sounds;
@@ -186,11 +426,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F3750A25482AFD00A7A9F1 /* cat.m4a in Resources */,
+				B6F374FD25482AFD00A7A9F1 /* k.m4a in Resources */,
+				B6F3752225482AFD00A7A9F1 /* watch.m4a in Resources */,
+				B6F374EE25482AFD00A7A9F1 /* EL G.m4a in Resources */,
 				69FEBFE125403C92007824A6 /* Preview Assets.xcassets in Resources */,
+				B6F3751525482AFD00A7A9F1 /* EL Y.m4a in Resources */,
 				B6F37486254821AB00A7A9F1 /* Dyspace theme.mp3 in Resources */,
+				B6F3751B25482AFD00A7A9F1 /* I.m4a in Resources */,
+				B6F374F525482AFD00A7A9F1 /* V.m4a in Resources */,
+				B6F374ED25482AFD00A7A9F1 /* kite2.m4a in Resources */,
+				B6F3752725482AFD00A7A9F1 /* U.m4a in Resources */,
+				B6F3751725482AFD00A7A9F1 /* S.m4a in Resources */,
+				B6F374E425482AFD00A7A9F1 /* jellyfish.m4a in Resources */,
+				B6F374EA25482AFD00A7A9F1 /* Helicopter .m4a in Resources */,
+				B6F374E225482AFD00A7A9F1 /* EL C.m4a in Resources */,
+				B6F3750925482AFD00A7A9F1 /* EL J.m4a in Resources */,
+				B6F374F425482AFD00A7A9F1 /* orange.m4a in Resources */,
+				B6F374F125482AFD00A7A9F1 /* Z.m4a in Resources */,
+				B6F3752B25482AFD00A7A9F1 /* nurse.m4a in Resources */,
+				B6F3750525482AFD00A7A9F1 /* Pluto.m4a in Resources */,
+				B6F374FC25482AFD00A7A9F1 /* EL K2.m4a in Resources */,
+				B6F3751325482AFD00A7A9F1 /* F.m4a in Resources */,
+				B6F3752C25482AFD00A7A9F1 /* Y.m4a in Resources */,
 				BF4CD1BD25419F01003ADE03 /* OpenDyslexic3-Bold.ttf in Resources */,
+				B6F3751E25482AFD00A7A9F1 /* EL W.m4a in Resources */,
+				B6F3752925482AFD00A7A9F1 /* dog.m4a in Resources */,
+				B6F3752125482AFD00A7A9F1 /* bee.m4a in Resources */,
+				B6F374F925482AFD00A7A9F1 /* N.m4a in Resources */,
+				B6F374E125482AFD00A7A9F1 /* elephant.m4a in Resources */,
+				B6F3752625482AFD00A7A9F1 /* EL Q.m4a in Resources */,
+				B6F3752525482AFD00A7A9F1 /* correct1.m4a in Resources */,
+				B6F3752325482AFD00A7A9F1 /* moon.m4a in Resources */,
 				BF5251B525434C7100B4300A /* OpenDyslexic3-Regular.ttf in Resources */,
+				B6F374FF25482AFD00A7A9F1 /* uranus.m4a in Resources */,
+				B6F3750C25482AFD00A7A9F1 /* H.m4a in Resources */,
+				B6F374FA25482AFD00A7A9F1 /* Neptune.m4a in Resources */,
+				B6F3751025482AFD00A7A9F1 /* Ice-cream.m4a in Resources */,
+				B6F3750E25482AFD00A7A9F1 /* E.m4a in Resources */,
+				B6F3750425482AFD00A7A9F1 /* Q.m4a in Resources */,
+				B6F374EB25482AFD00A7A9F1 /* tree.m4a in Resources */,
+				B6F374E925482AFD00A7A9F1 /* violin.m4a in Resources */,
+				B6F374EF25482AFD00A7A9F1 /* G.m4a in Resources */,
+				B6F3751825482AFD00A7A9F1 /* Umbrella .m4a in Resources */,
+				B6F3751C25482AFD00A7A9F1 /* apple1.m4a in Resources */,
+				B6F374DE25482AFD00A7A9F1 /* C.m4a in Resources */,
+				B6F374EC25482AFD00A7A9F1 /* EL P.m4a in Resources */,
+				B6F3750F25482AFD00A7A9F1 /* P.m4a in Resources */,
+				B6F374E825482AFD00A7A9F1 /* seagull.m4a in Resources */,
+				B6F374E525482AFD00A7A9F1 /* lion.m4a in Resources */,
+				B6F3751625482AFD00A7A9F1 /* EL V.m4a in Resources */,
+				B6F374FE25482AFD00A7A9F1 /* T.m4a in Resources */,
+				B6F3751A25482AFD00A7A9F1 /* EL E.m4a in Resources */,
+				B6F374F825482AFD00A7A9F1 /* EL O.m4a in Resources */,
+				B6F3751225482AFD00A7A9F1 /* X.m4a in Resources */,
+				B6F3752A25482AFD00A7A9F1 /* Yo-yo.m4a in Resources */,
+				B6F3751925482AFD00A7A9F1 /* EL R.m4a in Resources */,
+				B6F3750025482AFD00A7A9F1 /* panda.m4a in Resources */,
+				B6F3752825482AFD00A7A9F1 /* EL B.m4a in Resources */,
+				B6F3752425482AFD00A7A9F1 /* EL X.m4a in Resources */,
+				B6F374F325482AFD00A7A9F1 /* EL I.m4a in Resources */,
+				B6F374E725482AFD00A7A9F1 /* D.m4a in Resources */,
+				B6F374F025482AFD00A7A9F1 /* queen.m4a in Resources */,
+				B6F374FB25482AFD00A7A9F1 /* Story.m4a in Resources */,
+				B6F3750325482AFD00A7A9F1 /* radio.m4a in Resources */,
+				B6F3752025482AFD00A7A9F1 /* EL F.m4a in Resources */,
+				B6F374DD25482AFD00A7A9F1 /* ghost.m4a in Resources */,
 				69FEBFDE25403C92007824A6 /* Assets.xcassets in Resources */,
+				B6F374E325482AFD00A7A9F1 /* L.m4a in Resources */,
+				B6F3750125482AFD00A7A9F1 /* EL H.m4a in Resources */,
+				B6F3751125482AFD00A7A9F1 /* R.m4a in Resources */,
+				B6F374DF25482AFD00A7A9F1 /* tap note.m4a in Resources */,
+				B6F374E025482AFD00A7A9F1 /* EL m.m4a in Resources */,
+				B6F3751F25482AFD00A7A9F1 /* Each letter A.m4a in Resources */,
+				B6F3751425482AFD00A7A9F1 /* EL K.m4a in Resources */,
+				B6F3750725482AFD00A7A9F1 /* flower.m4a in Resources */,
+				B6F374E625482AFD00A7A9F1 /* EL D.m4a in Resources */,
+				B6F3750825482AFD00A7A9F1 /* B.m4a in Resources */,
+				B6F374F225482AFD00A7A9F1 /* EL N.m4a in Resources */,
+				B6F3750225482AFD00A7A9F1 /* apple.m4a in Resources */,
+				B6F3750B25482AFD00A7A9F1 /* EL S.m4a in Resources */,
+				B6F374F625482AFD00A7A9F1 /* correct3.m4a in Resources */,
+				B6F3750625482AFD00A7A9F1 /* EL L.m4a in Resources */,
+				B6F374F725482AFD00A7A9F1 /* J.m4a in Resources */,
+				B6F3750D25482AFD00A7A9F1 /* EL Z.m4a in Resources */,
+				B6F3751D25482AFD00A7A9F1 /* EL T.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

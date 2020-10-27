@@ -35,7 +35,7 @@ struct EsercizioStart: View {
                     .padding(.top, -200.0)
                     
                     Button(action: {
-//                        playsound(sound: "Dyspace theme", type: "mp3")
+                        playsound1(sound: "Dyspace theme", type: "mp3")
                         }
                     , label: {
                         Image(systemName: "speaker.wave.2.circle")
