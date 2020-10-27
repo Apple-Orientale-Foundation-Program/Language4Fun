@@ -13,6 +13,7 @@
 		69FEBFE125403C92007824A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FEBFE025403C92007824A6 /* Preview Assets.xcassets */; };
 		72543DFD25485A2F0051F7B7 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72543DFC25485A2F0051F7B7 /* Card.swift */; };
 		72543E0125485B930051F7B7 /* Correct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72543E0025485B930051F7B7 /* Correct.swift */; };
+		72543E0425485EEB0051F7B7 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72543E0325485EEB0051F7B7 /* Error.swift */; };
 		B66EF7E22546BD1100666467 /* Esercizio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EF7E12546BD1100666467 /* Esercizio.swift */; };
 		B66EF7E52546BD1C00666467 /* EsercizioCompleto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */; };
 		B66EF7E82546BD2300666467 /* ExcersiseStruttura.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66EF7E72546BD2300666467 /* ExcersiseStruttura.swift */; };
@@ -116,6 +117,7 @@
 		69FEBFE225403C92007824A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		72543DFC25485A2F0051F7B7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		72543E0025485B930051F7B7 /* Correct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Correct.swift; sourceTree = "<group>"; };
+		72543E0325485EEB0051F7B7 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		B66EF7E12546BD1100666467 /* Esercizio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Esercizio.swift; sourceTree = "<group>"; };
 		B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsercizioCompleto.swift; sourceTree = "<group>"; };
 		B66EF7E72546BD2300666467 /* ExcersiseStruttura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcersiseStruttura.swift; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 				B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */,
 				72543DFC25485A2F0051F7B7 /* Card.swift */,
 				72543E0025485B930051F7B7 /* Correct.swift */,
+				72543E0325485EEB0051F7B7 /* Error.swift */,
 				69FEBFDD25403C92007824A6 /* Assets.xcassets */,
 				69FEBFE225403C92007824A6 /* Info.plist */,
 				69FEBFDF25403C92007824A6 /* Preview Content */,
@@ -539,6 +542,7 @@
 				B66EF7E82546BD2300666467 /* ExcersiseStruttura.swift in Sources */,
 				B6A5D4EC2542FFE100F7F15B /* Level1View.swift in Sources */,
 				69FEBFDA25403C8F007824A6 /* Language4FunApp.swift in Sources */,
+				72543E0425485EEB0051F7B7 /* Error.swift in Sources */,
 				BFBD23212540627C00BD8965 /* SwiftUIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
