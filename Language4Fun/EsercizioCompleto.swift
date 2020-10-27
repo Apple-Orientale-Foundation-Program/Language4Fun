@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EsercizioCompleto: View {
  @State var verify : Bool = false
+    @State private var showPopover: Bool = false
     @State var indice: Int
     var esercizio : Esercizio
     
@@ -41,18 +42,23 @@ struct EsercizioCompleto: View {
                         Button(action: {
                            if esercizio.letter1 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
+                            
+                            playsound1(sound: "correct3", type: "m4a")
                                }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
+                                
                             }
                         }, label: {
                         Image(esercizio.letter1).resizable()
                             .frame(width: 100, height: 147, alignment: .center)
+                            
                         } )
                         
                         Button(action: {
                             if esercizio.letter2 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
+                                playsound1(sound: "correct3", type: "m4a")
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -66,6 +72,7 @@ struct EsercizioCompleto: View {
                         Button(action: {
                             if esercizio.letter3 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
+                                playsound1(sound: "correct3", type: "m4a")
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -78,6 +85,7 @@ struct EsercizioCompleto: View {
                         Button(action: {
                             if esercizio.letter4 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
+                                playsound1(sound: "correct3", type: "m4a")
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital

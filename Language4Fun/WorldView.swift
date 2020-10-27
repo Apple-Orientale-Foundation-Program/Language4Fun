@@ -94,7 +94,7 @@ struct WorldView: View {
 //                    .resizable()
 //                    .frame(width: 106, height: 84, alignment: .bottomLeading)
                     .position(x: 110, y: 1020)
-                    
+                   
                 
             
             }
@@ -103,6 +103,7 @@ struct WorldView: View {
         
         .onAppear(){
           playsound1(sound: "Story", type: "m4a")
+        
         }
         
         .edgesIgnoringSafeArea(.top)

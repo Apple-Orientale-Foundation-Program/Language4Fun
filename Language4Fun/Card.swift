@@ -13,7 +13,7 @@ struct Card: View {
 
                     VStack(alignment: .center) {
 
-                        Button( action: {}, label: {
+                        Button( action: {print("button was tapped")}, label: {
 
                         
 
@@ -26,7 +26,7 @@ struct Card: View {
                             .foregroundColor(Color(red: 27 / 255, green: 108 / 255, blue: 168 / 255))
 
                             .multilineTextAlignment(.center)
-
+                            
                         
 
                         }
