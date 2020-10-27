@@ -12,7 +12,7 @@ struct EsercizioCompleto: View {
     @State private var showPopover: Bool = false
     @State var indice: Int
     var esercizio : Esercizio
-    var backg : String = "BackgroundExone"
+    @State var backg : String = "BackgroundExone"
     
    
     @State private var parolaCompleta = ""
@@ -45,10 +45,12 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                             
                             playsound1(sound: "correct3", type: "m4a")
+                            backg = "BackgroundEx2"
                                }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
                                 playsound1(sound: "ERROR", type: "mp4")
+                                backg = "BackgroundEx3"
                             }
                         }, label: {
                         Image(esercizio.letter1).resizable()
@@ -60,10 +62,12 @@ struct EsercizioCompleto: View {
                             if esercizio.letter2 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
+                                backg = "BackgroundEx2"
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
                                 playsound1(sound: "ERROR", type: "mp4")
+                                backg = "BackgroundEx3"
                             }
                         }, label: {
                         Image(esercizio.letter2)
@@ -75,10 +79,12 @@ struct EsercizioCompleto: View {
                             if esercizio.letter3 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
+                                backg = "BackgroundEx2"
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
                                 playsound1(sound: "ERROR", type: "mp4")
+                                backg = "BackgroundEx3"
                             }
                         }, label: {
                         Image(esercizio.letter3)
@@ -89,10 +95,12 @@ struct EsercizioCompleto: View {
                             if esercizio.letter4 == esercizio.excerciseLetter + "L" {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
+                                backg = "BackgroundEx2"
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
                                 playsound1(sound: "ERROR", type: "mp4")
+                                backg = "BackgroundEx3"
                             }
                         }, label: {
                         Image(esercizio.letter4)
