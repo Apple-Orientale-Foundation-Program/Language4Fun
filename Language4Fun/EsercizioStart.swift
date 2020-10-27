@@ -9,6 +9,7 @@ import SwiftUI
 
 struct EsercizioStart: View {
   var indice : Int
+//    var cambiavariabile : Int = listOfExcercises.excerciseList[1]
     var esercizio : Esercizio
     var body: some View {
         NavigationView{
@@ -74,7 +75,7 @@ struct EsercizioStart: View {
 struct EsercizioStart_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-          EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[1])
+          EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[0])
                 .previewDevice("iPad Air (4th generation)")
             
             //            EsercizioStart(esercizio: listOfExcercises.excerciseList[1])

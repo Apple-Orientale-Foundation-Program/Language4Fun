@@ -14,6 +14,7 @@ struct EsercizioCompleto: View {
     var esercizio : Esercizio
     @State var backg : String = "BackgroundExone"
     
+    
    
     @State private var parolaCompleta = ""
     var body: some View {
@@ -46,6 +47,7 @@ struct EsercizioCompleto: View {
                             
                             playsound1(sound: "correct3", type: "m4a")
                             backg = "BackgroundEx2"
+                            indice = indice + 1
                                }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -63,6 +65,7 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
+                                indice = indice + 1
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -80,6 +83,7 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
+                                indice = indice + 1
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -96,6 +100,7 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
+                                indice = indice + 1
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
@@ -120,15 +125,15 @@ struct EsercizioCompleto: View {
           playsound1(sound: esercizio.pickletter, type: "m4a")
         }
         .edgesIgnoringSafeArea(.top)
-        .navigationBarHidden(true)
-        .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(false)
+        .navigationBarBackButtonHidden(false)
         .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
 struct EsercizioCompleto_Previews: PreviewProvider {
     static var previews: some View {
-      EsercizioCompleto(indice: 0, esercizio: listOfExcercises.excerciseList[1])
+      EsercizioCompleto(indice: 0, esercizio: listOfExcercises.excerciseList[0])
             .previewDevice("iPad Air (4th generation)")
     }
 }
