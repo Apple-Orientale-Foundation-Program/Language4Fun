@@ -95,6 +95,10 @@ struct EsercizioCompleto: View {
         .onAppear(){
           parolaCompleta = esercizio.wordWithoutCapital
         }
+        
+        .onAppear(){
+          playsound1(sound: esercizio.pickletter, type: "m4a")
+        }
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)

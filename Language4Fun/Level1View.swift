@@ -23,6 +23,10 @@ struct Level1View: View {
             
         
     }
+        
+        .onAppear(){
+          playsound1(sound: "Pluto", type: "m4a")
+        }
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)

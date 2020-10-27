@@ -35,7 +35,7 @@ struct EsercizioStart: View {
                     .padding(.top, -200.0)
                     
                     Button(action: {
-                        playsound1(sound: "Dyspace theme", type: "mp3")
+                        playsound1(sound: esercizio.soundletter, type: "m4a")
                         }
                     , label: {
                         Image(systemName: "speaker.wave.2.circle")
@@ -60,6 +60,10 @@ struct EsercizioStart: View {
                 
             }
         }
+        .onAppear(){
+          playsound1(sound: esercizio.soundletter, type: "m4a")
+        }
+        
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)

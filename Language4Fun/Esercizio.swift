@@ -16,6 +16,8 @@ struct Esercizio: Identifiable {
     var letter2: String
     var letter3: String
     var letter4: String
+    var soundletter : String
+    var pickletter: String
     
 }
 

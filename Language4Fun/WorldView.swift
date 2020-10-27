@@ -101,6 +101,10 @@ struct WorldView: View {
             }
         }
         
+        .onAppear(){
+          playsound1(sound: "Story", type: "m4a")
+        }
+        
         .edgesIgnoringSafeArea(.top)
         .navigationBarHidden(true)
         .navigationBarBackButtonHidden(true)

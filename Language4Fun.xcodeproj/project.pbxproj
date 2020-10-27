@@ -83,10 +83,10 @@
 		B6F3751925482AFD00A7A9F1 /* EL R.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374C925482AFA00A7A9F1 /* EL R.m4a */; };
 		B6F3751A25482AFD00A7A9F1 /* EL E.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CA25482AFA00A7A9F1 /* EL E.m4a */; };
 		B6F3751B25482AFD00A7A9F1 /* I.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CB25482AFA00A7A9F1 /* I.m4a */; };
-		B6F3751C25482AFD00A7A9F1 /* apple1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CC25482AFA00A7A9F1 /* apple1.m4a */; };
+		B6F3751C25482AFD00A7A9F1 /* A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CC25482AFA00A7A9F1 /* A.m4a */; };
 		B6F3751D25482AFD00A7A9F1 /* EL T.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CD25482AFA00A7A9F1 /* EL T.m4a */; };
 		B6F3751E25482AFD00A7A9F1 /* EL W.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CE25482AFB00A7A9F1 /* EL W.m4a */; };
-		B6F3751F25482AFD00A7A9F1 /* Each letter A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CF25482AFB00A7A9F1 /* Each letter A.m4a */; };
+		B6F3751F25482AFD00A7A9F1 /* EL A.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374CF25482AFB00A7A9F1 /* EL A.m4a */; };
 		B6F3752025482AFD00A7A9F1 /* EL F.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D025482AFB00A7A9F1 /* EL F.m4a */; };
 		B6F3752125482AFD00A7A9F1 /* bee.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D125482AFB00A7A9F1 /* bee.m4a */; };
 		B6F3752225482AFD00A7A9F1 /* watch.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B6F374D225482AFB00A7A9F1 /* watch.m4a */; };
@@ -184,10 +184,10 @@
 		B6F374C925482AFA00A7A9F1 /* EL R.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL R.m4a"; sourceTree = "<group>"; };
 		B6F374CA25482AFA00A7A9F1 /* EL E.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL E.m4a"; sourceTree = "<group>"; };
 		B6F374CB25482AFA00A7A9F1 /* I.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = I.m4a; sourceTree = "<group>"; };
-		B6F374CC25482AFA00A7A9F1 /* apple1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = apple1.m4a; sourceTree = "<group>"; };
+		B6F374CC25482AFA00A7A9F1 /* A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = A.m4a; sourceTree = "<group>"; };
 		B6F374CD25482AFA00A7A9F1 /* EL T.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL T.m4a"; sourceTree = "<group>"; };
 		B6F374CE25482AFB00A7A9F1 /* EL W.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL W.m4a"; sourceTree = "<group>"; };
-		B6F374CF25482AFB00A7A9F1 /* Each letter A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Each letter A.m4a"; sourceTree = "<group>"; };
+		B6F374CF25482AFB00A7A9F1 /* EL A.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL A.m4a"; sourceTree = "<group>"; };
 		B6F374D025482AFB00A7A9F1 /* EL F.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "EL F.m4a"; sourceTree = "<group>"; };
 		B6F374D125482AFB00A7A9F1 /* bee.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = bee.m4a; sourceTree = "<group>"; };
 		B6F374D225482AFB00A7A9F1 /* watch.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = watch.m4a; sourceTree = "<group>"; };
@@ -276,7 +276,7 @@
 			isa = PBXGroup;
 			children = (
 				B6F374B225482AF600A7A9F1 /* apple.m4a */,
-				B6F374CC25482AFA00A7A9F1 /* apple1.m4a */,
+				B6F374CC25482AFA00A7A9F1 /* A.m4a */,
 				B6F374B825482AF700A7A9F1 /* B.m4a */,
 				B6F374D125482AFB00A7A9F1 /* bee.m4a */,
 				B6F3748E25482AF000A7A9F1 /* C.m4a */,
@@ -286,7 +286,7 @@
 				B6F3749725482AF200A7A9F1 /* D.m4a */,
 				B6F374D925482AFD00A7A9F1 /* dog.m4a */,
 				B6F374BE25482AF800A7A9F1 /* E.m4a */,
-				B6F374CF25482AFB00A7A9F1 /* Each letter A.m4a */,
+				B6F374CF25482AFB00A7A9F1 /* EL A.m4a */,
 				B6F374D825482AFC00A7A9F1 /* EL B.m4a */,
 				B6F3749225482AF100A7A9F1 /* EL C.m4a */,
 				B6F3749625482AF200A7A9F1 /* EL D.m4a */,
@@ -469,7 +469,7 @@
 				B6F374E925482AFD00A7A9F1 /* violin.m4a in Resources */,
 				B6F374EF25482AFD00A7A9F1 /* G.m4a in Resources */,
 				B6F3751825482AFD00A7A9F1 /* Umbrella .m4a in Resources */,
-				B6F3751C25482AFD00A7A9F1 /* apple1.m4a in Resources */,
+				B6F3751C25482AFD00A7A9F1 /* A.m4a in Resources */,
 				B6F374DE25482AFD00A7A9F1 /* C.m4a in Resources */,
 				B6F374EC25482AFD00A7A9F1 /* EL P.m4a in Resources */,
 				B6F3750F25482AFD00A7A9F1 /* P.m4a in Resources */,
@@ -498,7 +498,7 @@
 				B6F3751125482AFD00A7A9F1 /* R.m4a in Resources */,
 				B6F374DF25482AFD00A7A9F1 /* tap note.m4a in Resources */,
 				B6F374E025482AFD00A7A9F1 /* EL m.m4a in Resources */,
-				B6F3751F25482AFD00A7A9F1 /* Each letter A.m4a in Resources */,
+				B6F3751F25482AFD00A7A9F1 /* EL A.m4a in Resources */,
 				B6F3751425482AFD00A7A9F1 /* EL K.m4a in Resources */,
 				B6F3750725482AFD00A7A9F1 /* flower.m4a in Resources */,
 				B6F374E625482AFD00A7A9F1 /* EL D.m4a in Resources */,

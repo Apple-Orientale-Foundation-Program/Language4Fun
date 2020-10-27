@@ -11,7 +11,7 @@ import AVFoundation
 var audioPlayer: AVAudioPlayer?
 
 func playsound(sound: String, type: String) {
-    if let path = Bundle.main.path(forResource: sound, ofType: type) {
+    if let path = Bundle.main.path(forResource: sound, ofType: type){
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
             audioPlayer?.play()
@@ -26,11 +26,12 @@ var audioPlayer1: AVAudioPlayer?
 func playsound1(sound: String, type: String) {
     if let path = Bundle.main.path(forResource: sound, ofType: type) {
         do {
-            audioPlayer = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
-            audioPlayer?.play()
-            audioPlayer?.numberOfLoops = 1
+            audioPlayer1 = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: path))
+            audioPlayer1?.play()
+            audioPlayer1?.numberOfLoops = 0
         } catch {
         print("Could not find the file")
         }
     }
 }
+
