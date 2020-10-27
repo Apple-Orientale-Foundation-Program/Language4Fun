@@ -12,13 +12,14 @@ struct EsercizioCompleto: View {
     @State private var showPopover: Bool = false
     @State var indice: Int
     var esercizio : Esercizio
+    var backg : String = "BackgroundExone"
     
    
     @State private var parolaCompleta = ""
     var body: some View {
         NavigationView{
             ZStack{
-            Image("BackgroundExone")
+            Image(backg)
                 .resizable()
                 .ignoresSafeArea(.all)
             
