@@ -118,6 +118,7 @@
 		72543DFC25485A2F0051F7B7 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		72543E0025485B930051F7B7 /* Correct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Correct.swift; sourceTree = "<group>"; };
 		72543E0325485EEB0051F7B7 /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		72543E0625487F9D0051F7B7 /* ERROR.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ERROR.m4a; sourceTree = "<group>"; };
 		B66EF7E12546BD1100666467 /* Esercizio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Esercizio.swift; sourceTree = "<group>"; };
 		B66EF7E42546BD1C00666467 /* EsercizioCompleto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsercizioCompleto.swift; sourceTree = "<group>"; };
 		B66EF7E72546BD2300666467 /* ExcersiseStruttura.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExcersiseStruttura.swift; sourceTree = "<group>"; };
@@ -284,6 +285,7 @@
 		B6F374802548213600A7A9F1 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				72543E0625487F9D0051F7B7 /* ERROR.m4a */,
 				B6F374B225482AF600A7A9F1 /* apple.m4a */,
 				B6F374CC25482AFA00A7A9F1 /* A.m4a */,
 				B6F374B825482AF700A7A9F1 /* B.m4a */,
