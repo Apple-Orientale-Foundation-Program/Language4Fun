@@ -47,7 +47,7 @@ struct EsercizioCompleto: View {
                                }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
-                                playsound1(sound: "ERROR", type: "m4a")
+                                playsound1(sound: "ERROR", type: "mp4")
                             }
                         }, label: {
                         Image(esercizio.letter1).resizable()
@@ -62,7 +62,7 @@ struct EsercizioCompleto: View {
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
-                                playsound1(sound: "ERROR", type: "m4a")
+                                playsound1(sound: "ERROR", type: "mp4")
                             }
                         }, label: {
                         Image(esercizio.letter2)
@@ -77,7 +77,7 @@ struct EsercizioCompleto: View {
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
-                                playsound1(sound: "ERROR", type: "m4a")
+                                playsound1(sound: "ERROR", type: "mp4")
                             }
                         }, label: {
                         Image(esercizio.letter3)
@@ -91,7 +91,7 @@ struct EsercizioCompleto: View {
                             }
                             else {
                                 parolaCompleta = esercizio.wordWithoutCapital
-                                playsound1(sound: "ERROR", type: "m4a")
+                                playsound1(sound: "ERROR", type: "mp4")
                             }
                         }, label: {
                         Image(esercizio.letter4)
