@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct EsercizioStart: View {
-  var indice : Int
+//  var indice : Int
 //    var cambiavariabile : Int = listOfExcercises.excerciseList[1]
     var esercizio : Esercizio
     var body: some View {
@@ -48,7 +48,7 @@ struct EsercizioStart: View {
                     
                     
        Spacer ()
-                  NavigationLink( destination: EsercizioCompleto (indice: 0, esercizio:esercizio),
+                  NavigationLink( destination: EsercizioCompleto ( esercizio:esercizio),
                                     label:{Text("Tap to start")
                                         .font(Font.custom("OpenDyslexic3", size: 55))
                                         .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
@@ -75,7 +75,7 @@ struct EsercizioStart: View {
 struct EsercizioStart_Previews: PreviewProvider {
     static var previews: some View {
         Group{
-          EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[3])
+          EsercizioStart(esercizio: listOfExcercises.excerciseList[0])
                 .previewDevice("iPad Air (4th generation)")
             
             //            EsercizioStart(esercizio: listOfExcercises.excerciseList[1])

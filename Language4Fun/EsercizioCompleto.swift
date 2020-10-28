@@ -10,11 +10,12 @@ import SwiftUI
 struct EsercizioCompleto: View {
  @State var verify : Bool = false
     @State private var showPopover: Bool = false
-    @State var indice: Int
+//    @State var indice: Int
     var esercizio : Esercizio
     @State var backg : String = "BackgroundExone"
     @State private var parolaCompleta = ""
     @State var nextb : String = ""
+     
     var body: some View {
         
         NavigationView{
@@ -33,7 +34,7 @@ struct EsercizioCompleto: View {
                         .frame(width: 261.0, height: 268.0)
                         .padding(200.0)
                     
-                    NavigationLink( destination: EsercizioStart(indice: 1, esercizio: listOfExcercises.excerciseList[1]),
+                    NavigationLink( destination: EsercizioStart(esercizio: listOfExcercises.excerciseList[idcounter()]),
                                       label:{Text(nextb)
                                           .font(Font.custom("OpenDyslexic3", size: 55))
                                           .foregroundColor(Color(red: 250 / 255, green: 191 / 255, blue: 170 / 255))
@@ -56,7 +57,6 @@ struct EsercizioCompleto: View {
                             
                             playsound1(sound: "correct3", type: "m4a")
                             backg = "BackgroundEx2"
-                            indice = indice + 1
                             nextb = "Next Letter"
                                }
                             else {
@@ -75,7 +75,7 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
-                                indice = indice + 1
+                               
                                 nextb = "Next Letter"
                             }
                             else {
@@ -94,7 +94,7 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
-                                indice = indice + 1
+                                
                                 nextb = "Next Letter"
                             }
                             else {
@@ -112,7 +112,7 @@ struct EsercizioCompleto: View {
                                 parolaCompleta = esercizio.completeWord
                                 playsound1(sound: "correct3", type: "m4a")
                                 backg = "BackgroundEx2"
-                                indice = indice + 1
+                                
                                 nextb = "Next Letter"
                             }
                             else {
@@ -144,12 +144,22 @@ struct EsercizioCompleto: View {
         .navigationBarBackButtonHidden(true)
         .navigationViewStyle(StackNavigationViewStyle())
     }
+    
+    func idcounter () -> Int {
+        var id = listOfExcercises.excerciseList[0].id
+       id += 1
+    
+        return id
+        
+    }
 }
+
 
 struct EsercizioCompleto_Previews: PreviewProvider {
     static var previews: some View {
-      EsercizioCompleto(indice: 0, esercizio: listOfExcercises.excerciseList[0])
+      EsercizioCompleto(esercizio: listOfExcercises.excerciseList[0])
             .previewDevice("iPad Air (4th generation)")
     }
 }
+
 

@@ -51,7 +51,7 @@ let listOfExcercises = ExcerciseStruttura(excerciseList: [
     Esercizio(id: 14, excerciseLetter: "N", completeWord: "Nurse", wordWithoutCapital: "_urse", letter1: "CL", letter2: "NL", letter3: "XL", letter4: "BL",soundletter: "EL N", pickletter: "N"),
     
     
-    Esercizio(id: 15, excerciseLetter: "O", completeWord: "Orange", wordWithoutCapital: "_range", letter1: "JL", letter2: "LL", letter3: "PL", letter4: "UL",soundletter: "EL O", pickletter: "O"),
+    Esercizio(id: 15, excerciseLetter: "O", completeWord: "Orange", wordWithoutCapital: "_range", letter1: "JL", letter2: "LL", letter3: "PL", letter4: "OL",soundletter: "EL O", pickletter: "O"),
     
     
     Esercizio(id: 16, excerciseLetter: "P", completeWord: "Panda", wordWithoutCapital: "_anda", letter1: "PL", letter2: "FL", letter3: "IL", letter4: "EL",soundletter: "EL P", pickletter: "P"),

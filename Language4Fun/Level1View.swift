@@ -13,7 +13,7 @@ struct Level1View: View {
             
             NavigationLink(
                 destination:
-                  EsercizioStart(indice: 0, esercizio: listOfExcercises.excerciseList[0]),
+                  EsercizioStart(esercizio: listOfExcercises.excerciseList[0]),
                 label: {
                     Image("Plutolevel")
                         .resizable()

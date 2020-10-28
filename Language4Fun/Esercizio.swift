@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Esercizio: Identifiable {
-    var id: Int
+    var id: Int = 0
     var excerciseLetter: String
     var completeWord: String
     var wordWithoutCapital: String
@@ -19,6 +19,7 @@ struct Esercizio: Identifiable {
     var soundletter : String
     var pickletter: String
     
+   
 }
 
 extension Esercizio{
