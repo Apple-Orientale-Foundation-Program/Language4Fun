@@ -36,7 +36,7 @@ let listOfExcercises = ExcerciseStruttura(excerciseList: [
     Esercizio(id: 9, excerciseLetter: "I", completeWord: "Ice-cream", wordWithoutCapital: "_ce-cream", letter1: "HL", letter2: "UL", letter3: "IL", letter4: "BL",soundletter: "EL I", pickletter: "I"),
     
     
-    Esercizio(id: 10, excerciseLetter: "J", completeWord: "Jellyfish", wordWithoutCapital: "_ellyfish", letter1: "NL", letter2: "ZL", letter3: "DL", letter4: "JL",soundletter: "EL J", pickletter: "J"),
+    Esercizio(id: 10, excerciseLetter: "J", completeWord: "Jellyfish", wordWithoutCapital: "_ellyfish", letter1: "NL", letter2: "ZL", letter3: "DL", letter4: "JL",soundletter: "EL J", pickletter: "JL"),
     
     
     Esercizio(id: 11, excerciseLetter: "K", completeWord: "Kite", wordWithoutCapital: "_ite", letter1: "FL", letter2: "KL", letter3: "AL", letter4: "VL",soundletter: "EL K", pickletter: "K"),
