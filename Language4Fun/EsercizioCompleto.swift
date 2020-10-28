@@ -157,7 +157,7 @@ struct EsercizioCompleto: View {
 
 struct EsercizioCompleto_Previews: PreviewProvider {
     static var previews: some View {
-      EsercizioCompleto(esercizio: listOfExcercises.excerciseList[9])
+      EsercizioCompleto(esercizio: listOfExcercises.excerciseList[0])
             .previewDevice("iPad Air (4th generation)")
     }
 }
